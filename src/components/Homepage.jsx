@@ -1,22 +1,28 @@
-import Nav from "@/components/Navbar"
+import Example from "@/components/Navbar"
 import About from "@/components/About"
 import Hero from "@/components/Hero"
 import Abouters from "@/components/Gallery"
 import Aboutrers from "@/components/More"
 import Contactsection from "@/components/Contact-section"
-import Footer from "@/components/Footer"
 
-export default function Home() {
-  return (
+
+
+
+export default function Footer() {
+    return (
+
 <div>
-
+<Example/>
 <Hero/>
 <About/>
 <Abouters/>
 <Contactsection/>
 <Aboutrers/>
 
+ </div>
 
-</div>
-  )
+)
 }
+
+
+
