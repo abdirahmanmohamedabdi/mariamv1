@@ -14,7 +14,7 @@ export default function Abouters() {
       <p class="mb-8 leading-relaxed font-abc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
       <div class="flex w-full md:justify-start justify-center items-end">
        
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 bg-brown font-abc focus:outline-none hover:bg-indigo-600 rounded text-lg"><Link href="/Portfolio">Gallery</Link></button>
+        <button class="inline-flex text-white bg-brown border-0 py-2 px-6 bg-brown font-abc focus:outline-none  rounded text-lg"><Link href="/Portfolio">Gallery</Link></button>
       </div>
      
     </div>

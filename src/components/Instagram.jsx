@@ -1,122 +1,65 @@
-import Image from "next/image"
-import self from "../../public/self.jpg"
-import Self from "../../public/Self.jpg"
+
+import gallery1 from "../../public/gallery1.jpg"
+import gallery3 from "../../public/gallery3.jpg"
 import pic1 from "../../public/pic1.jpg"
 import pic2 from "../../public/pic2.jpg"
 import pic3 from "../../public/pic3.jpg"
 import pic4 from "../../public/pic4.jpg"
 import pic5 from "../../public/pic5.jpg"
 import pic6 from "../../public/pic6.jpg"
-export default function Instagram() {
-    return (
- <div>
+import kulsoom from "../../public/kulsoom.jpg"
+import wedding from "../../public/wedding.jpg"
+import Image from "next/image";
+import React from "react";
+import Link from "next/link"
+import { FaInstagram } from "react-icons/fa";
 
-<section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-col text-center w-full mb-20">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Instagram</h1>
-     
+
+const InstagramImg = ({ socialImg }) => {
+  return (
+    <div className="">
+      <Image
+        src={socialImg}
+        alt="/"
+       
+        height="100"
+      
+        layout="responsive"
+      />
+      
     </div>
-    <div class="flex flex-wrap -m-4">
-      <div class="lg:w-1/3 sm:w-1/2 p-4">
-        <div class="flex relative">
-        <Image class="object-cover object-center rounded" alt="hero" 
-        className="absolute inset-0 w-full h-full object-cover object-center"
-        src={pic1}
-      width="0"
-      height="800"
-      sizes="700vw"/>
-          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
-      </div>
-      <div class="lg:w-1/3 sm:w-1/2 p-4">
-        <div class="flex relative">
-        <Image class="object-cover object-center rounded" alt="hero" 
-        className="absolute inset-0 w-full h-full object-cover object-center"
-        src={pic2}
-      width="0"
-      height="800"
-      sizes="700vw"/>
-          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
-      </div>
-      <div class="lg:w-1/3 sm:w-1/2 p-4">
-        <div class="flex relative">
-        <Image class="object-cover object-center rounded" alt="hero" 
-        className="absolute inset-0 w-full h-full object-cover object-center"
-        src={pic3}
-      width="0"
-      height="800"
-      sizes="700vw"/>
-          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
-      </div>
-      <div class="lg:w-1/3 sm:w-1/2 p-4">
-        <div class="flex relative">
-        <Image class="object-cover object-center rounded" alt="hero" 
-        className="absolute inset-0 w-full h-full object-cover object-center"
-        src={pic4}
-      width="0"
-      height="800"
-      sizes="700vw"/>
-          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Neptune</h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
-      </div>
-      <div class="lg:w-1/3 sm:w-1/2 p-4">
-        <div class="flex relative">
-        <Image class="object-cover object-center rounded" alt="hero" 
-        className="absolute inset-0 w-full h-full object-cover object-center"
-        src={pic5}
-      width="0"
-      height="800"
-      sizes="700vw"/>
-          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Holden Caulfield</h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
-      </div>
-      <div class="lg:w-1/3 sm:w-1/2 p-4">
-        <div class="flex relative">
-        <Image class="object-cover object-center rounded" alt="hero" 
-        className="absolute inset-0 w-full h-full object-cover object-center"
-        src={pic6}
-      width="0"
-      height="800"
-      sizes="700vw"/>
-          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Alper Kamu</h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
+  );
+};
+
+
+
+
+const Instagram = () => {
+  return (
+    <div className="mx-auto	 text-center py-4">
+      <p className="text-2xl font-abc font-bold">Follow me on Instagram</p>
+      <p className="pb-4 font-abc text-brown font-light	" >
+      <Link href="https://www.instagram.com/photosbymariamtheugandan/">@mariamtheugandan</Link>
+       </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-6 gap-2 p-4">
+        <InstagramImg socialImg={pic1} />
+        <InstagramImg socialImg={pic2} />
+        <InstagramImg socialImg={pic3} />
+        <InstagramImg socialImg={pic4} />
+        <InstagramImg socialImg={pic5} />
+        <InstagramImg socialImg={pic6} />
+        <InstagramImg socialImg={kulsoom} />
+        <InstagramImg socialImg={gallery1} />
+        <InstagramImg socialImg={gallery3} />
+        <InstagramImg socialImg={wedding} />
+        <InstagramImg socialImg={gallery3} />
+        <InstagramImg socialImg={wedding} />
+        
+        
+        
       </div>
     </div>
-  </div>
-</section>
+  );
+};
 
-
- </div>
-
-)
-}
-
-
-
+export default Instagram;

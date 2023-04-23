@@ -8,15 +8,13 @@ import Footer from "@/components/Footer"
 
 export default function Home() {
   return (
-<div>
+<div className="">
+
 
 <Hero/>
 <About/>
 <Abouters/>
 <Contactsection/>
-<Aboutrers/>
-
-
 </div>
   )
 }

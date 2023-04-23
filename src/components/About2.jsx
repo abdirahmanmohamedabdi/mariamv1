@@ -1,5 +1,7 @@
 import Image from "next/image"
 import Self from "../../public/Self.jpg"
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function About2() {
     return (

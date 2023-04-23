@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx}',
     './src/components/**/*.{js,ts,jsx,tsx}',
@@ -24,7 +25,7 @@ module.exports = {
       },
     
       fontFamily: {
-        abc:["Anuphan","sans-serif"],
+        abc:["Playfair Display","sans-serif"],
         serif: ['Inter', 'serif'],
       },
     },
