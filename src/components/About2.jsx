@@ -1,35 +1,51 @@
-import Image from "next/image"
+import Image from 'next/image'
 import Self from "../../public/Self.jpg"
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+const About2 = () => {
+  return (
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="flex flex-col items-center justify-center py-16 md:py-32">
+      <div className="mb-20">
+        <Image
+          src={Self}
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="responsive"
+          className="rounded-lg"
+        />
+      </div>
+      <div className="w-full md:w-3/4 lg:w-2/2">
+        <h2 className="text-3xl md:text-4xl font-abc px-30 font-bold mb-4 mx-auto px-15 text-gray-800">
+          Hi im Mariam
+        </h2>
+        <p className="text-lg font-abc text-gray-700 mb-6">
+        5 years ago, if you had told me that I would one day be deeply in love with the service of photographing weddings, I would not have believed it. So how exactly did I get here?
+Well, it all started with a friend of mine who was getting married about 6 years ago.
 
-export default function About2() {
-    return (
- <div>
-
-<section class="text-gray-600 body-font">
-  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <Image class="object-cover object-center rounded" alt="hero" src={Self}
-      width="0"
-      height="800"
-      sizes="700vw"/>
-    </div>
-    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-abc text-gray-900">Hi Im Mariam
-       
-      </h1>
-      <p class="mb-8 font-abc leading-relaxed">I am a wedding photographer Who strives to create a personalized experience that reflects your style and personality, ensuring that your images are as unique as your love story. Trust Me to capture your precious memories and turn them into timeless works of art that you can treasure for a lifetime.</p>
-      
+        </p>
+        <p className="text-lg  font-abc text-gray-700 mb-6">
+          Aenean tincidunt turpis eu dui pharetra, vitae malesuada ante
+          bibendum. Sed vel tincidunt nibh. Suspendisse ac gravida velit.
+          Nulla sit amet dui id ex maximus interdum. Proin pellentesque,
+          mi vel auctor tristique, nulla nulla dignissim lacus, nec blandit
+          enim nisl sit amet lectus. In euismod, ante eu tempor bibendum,
+          elit lectus fringilla lectus, in congue arcu urna sed dui.
+        </p>
+        <p className="text-lg font-abc text-gray-700 mb-6">
+          Fusce eget tempor ex. Vestibulum ante ipsum primis in faucibus orci
+          luctus et ultrices posuere cubilia curae; Vestibulum eget varius
+          erat. Sed convallis est quis odio feugiat tristique. Sed euismod,
+          mauris auctor egestas bibendum, tellus nisl congue arcu, id
+          tincidunt velit justo vitae tortor. Praesent in suscipit lorem.
+          Etiam eu eros rutrum, accumsan urna non, tristique lorem. Sed
+          vestibulum consectetur scelerisque. Nulla porttitor, sapien quis
+          egestas pellentesque, odio urna imperdiet nisi, sed scelerisque
+          neque ipsum nec ex. Fusce auctor nunc vel risus imperdiet lacinia.
+        </p>
+      </div>
     </div>
   </div>
-</section>
-
-
- </div>
-
-)
+  )
 }
 
-
-
+export default About2

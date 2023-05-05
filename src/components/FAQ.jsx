@@ -12,7 +12,7 @@ const faqs = [
 
     {
         id: 2,
-        question: "How much do you charge",
+        question: "Do you travel to other countries",
         answer:
           " Lorem ipsum dolor sit amet consectetur adipisicing elit.Nemo expedita voluptas culpa sapiente alias molestiae Numquam corrupti in laborum sed rerum et corporis.",
       },
@@ -20,7 +20,7 @@ const faqs = [
 
       {
         id: 3,
-        question: "How much do you charge",
+        question: "How can i contact you",
         answer:
           " Lorem ipsum dolor sit amet consectetur adipisicing elit.Nemo expedita voluptas culpa sapiente alias molestiae Numquam corrupti in laborum sed rerum et corporis.",
       },
@@ -54,10 +54,6 @@ export default function Faq() {
    
 
         </div>
-       
-        <div class="flex justify-center">
-        <button class="ml-6inline-flex text-white bg-gray-100 border-0 py-2 px-6 focus:outline-none bg-brown rounded font-abc  text-lg"><Link href="/Contact">Contact</Link> </button>
-      </div>
        
   
       </div>

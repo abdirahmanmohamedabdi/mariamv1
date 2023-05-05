@@ -1,95 +1,48 @@
-import Image from "next/image";
-import salma from "../../public/salma.jpg";
-import wedding from "../../public/wedding.jpg"
+/* This example requires Tailwind CSS v2.0+ */
+import salma from "../../public/salma.jpg"
+import Image from "next/image"
 export default function Testimonials() {
   return (
     <div>
-      <section className="bg-white overflow-hidden">
-        
-        <div className="relative max-w-7xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
-            
-            
-          <div className="relative lg:flex lg:items-center">
-          <div className="hidden lg:block lg:flex-shrink-0">
+    <div className="bg-white pt-16 lg:py-14">
+    <div className="pb-16 bg-brown lg:pb-0 lg:z-5 lg:relative">
+      <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
+        <div className="relative lg:-my-8">
+          <div aria-hidden="true" className="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden" />
+          <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
+            <div className="aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
               <Image
-                className="object-cover object-center "
-                src={wedding}
-                width="200"
-                height="200"
-                sizes="200vw"
-                alt=""
-                Image
-              />
-            </div>
-
-            <div className="relative lg:ml-10">
-              <blockquote className="relative">
-                <div className="text-2xl leading-9 font-medium text-gray-900">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nemo expedita voluptas culpa sapiente alias molestiae.
-                    Numquam corrupti in laborum sed rerum et corporis.
-                  </p>
-                </div>
-                <footer className="mt-8">
-                  <div className="flex">
-                   
-                   
-                    <div className="ml-4 lg:ml-0">
-                      <div className="text-base font-medium text-gray-900">
-                        Salim And Salima
-                      </div>
-                      <div className="text-base font-medium text-brown">
-                        Engagement
-                      </div>
-                    </div>
-                  </div>
-                </footer>
-              </blockquote>
-            </div>
-          </div>
-        </div>
-        <div className="relative max-w-7xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
-          <div className="relative lg:flex lg:items-center">
-            <div className="hidden lg:block lg:flex-shrink-0">
-              <Image
-                className="object-cover object-center "
+                className="object-fit md:h-fit md:w-fit"
+                
                 src={salma}
-                width="200"
-                height="200"
-                sizes="200vw"
-                alt=""
-                Image
+                alt="gallery"
               />
-            </div>
-
-            <div className="relative lg:ml-10">
-              <blockquote className="relative">
-                <div className="text-2xl leading-9 font-medium text-gray-900">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nemo expedita voluptas culpa sapiente alias molestiae.
-                    Numquam corrupti in laborum sed rerum et corporis.
-                  </p>
-                </div>
-                <footer className="mt-8">
-                  <div className="flex">
-                    
-                    <div className="ml-4 lg:ml-0">
-                      <div className="text-base font-medium text-gray-900">
-                        John And Jane
-                      </div>
-                      <div className="text-base font-medium text-brown">
-                        Wedding
-                      </div>
-                    </div>
-                  </div>
-                </footer>
-              </blockquote>
             </div>
           </div>
         </div>
-      </section>
+        <div className="mt-12 lg:m-0 lg:col-span-2 lg:pl-8">
+          <div className="mx-auto max-w-md px-4 sm:max-w-2md sm:px-6 lg:px-0 lg:py-20 lg:max-w-none">
+            <blockquote>
+              <div>
+                
+                
+                <p className="mt-6 text-2xl font-medium font-abc  text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet
+                  feugiat est integer dolor auctor adipiscing nunc urna, sit.
+                </p>
+              </div>
+              <footer className="mt-6">
+                <p className="text-base font-abc font-medium text-white">Salma and Samira</p>
+                <p className="text-base font-abc  font-medium text-warm">Wedding</p>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
     </div>
-  );
+  </div>
+
+
+  </div>
+  )
 }

@@ -1,17 +1,59 @@
-import React from "react";
-import Link from "next/link";
+import React, { useState } from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
-const Hero = () => {
+
+
+const imageData = [
+  {
+    label: "Image 1",
+    alt: "image1",
+    url:
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524533/mariam/Sobia___Tawfiq-41_yhxfbt.jpg"
+  },
+  {
+    label: "Image 2",
+    alt: "image2",
+    url:
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Joanna___Nanfa-27_fiwb2e.jpg"
+  },
+  {
+    label: "Image 3",
+    alt: "image3",
+    url: "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Nael___Lamyae-1_spmp1i.jpg"
+  },
+  {
+    label: "Image 4",
+    alt: "image4",
+    url:
+      "https://res.cloudinary.com/ifeomaimoh/image/upload/v1652345767/demo_image2.jpg"
+  }
+];
+
+const renderSlides = imageData.map((image) => (
+  <div key={image.alt}>
+    <img src={image.url} alt={image.alt} />
+    <p className="legend py-6">{image.label}</p>
+  </div>
+));
+
+export default function Hero() {
+  const [currentIndex, setCurrentIndex] = useState();
+  function handleChange(index) {
+    setCurrentIndex(index);
+  }
   return (
-    <div className="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img">
-      <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/70 z-[2]" />
-      <div className="p-5 text-white z-[2] mt-[-10rem]">
-       
-        <p className="py-5 font-abc text-xl">Turning your cherished moments into timeless memories</p>
-       
-      </div>
+    <div className="App mb-5">
+      <Carousel
+        showArrows={true}
+        autoPlay={true}
+        infiniteLoop={true}
+        selectedItem={imageData[currentIndex]}
+        onChange={handleChange}
+        className="carousel-container"
+      >
+        {renderSlides}
+      </Carousel>
     </div>
   );
-};
-
-export default Hero;
+}

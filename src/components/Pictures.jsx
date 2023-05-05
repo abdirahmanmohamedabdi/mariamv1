@@ -1,72 +1,46 @@
 import gallery1 from "../../public/gallery1.jpg"
 import gallery2 from "../../public/gallery2.jpg"
 import gallery3 from "../../public/gallery3.jpg"
+import { Carousel } from 'react-responsive-carousel';
+
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import gallery4 from "../../public/gallery4.jpg"
 import gallery5 from "../../public/gallery5.jpg"
 import gallery6 from "../../public/gallery6.jpg"
 import gallery7 from "../../public/gallery7.jpg"
+import sprite from "../../public/sprite.svg"
 import Image from "next/image"
 
 export default function Pictures() {
+  const images = [
+    "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524534/mariam/Pritisha___Ram-11_bzz5we.jpg",
+    "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524533/mariam/Sobia___Tawfiq-41_yhxfbt.jpg",
+    "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524533/mariam/Portfolio-48_swo69m.jpg",
+    "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524532/mariam/Portfolio-6_kenzqf.jpg",
+    "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524532/mariam/Portfolio-11_us4m2j.jpg",
+    "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Joanna___Nanfa-27_fiwb2e.jpg",
+    "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953597/mariam/blog/annabelle/Annobelle___Jamie-2_fr2kxs.jpg",
+    "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Nael___Lamyae-1_spmp1i.jpg",
+    "https://res.cloudinary.com/dyijvml1y/image/upload/v1682954123/mariam/blog/Pritisha/Pritisha___Ram-5_x6g1sr.jpg",
+  ];
+  
     return (
  <div>
-<section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto flex flex-wrap">
-    <div class="flex w-full mb-20 flex-wrap">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Here are my Photos</h1>
-      <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">W  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nemo expedita voluptas culpa sapiente alias molestiae.
-                    Numquam corrupti in laborum sed rerum et corporis.</p>
-    </div>
-    <div class="flex flex-wrap md:-m-2 -m-1">
-      <div class="flex flex-wrap w-1/2">
-        <div class="md:p-2 p-1 w-1/2">
-        <Image class="w-full object-cover h-full object-center block" alt="hero" src={gallery1}
-      width="0"
+ <div className=" relative ">
+ 
+    <Carousel useKeyboardArrows={true}>
+      {images.map((URL, index) => (
+        <div className="slide">
+          <Image alt="sample_file"  width="0"
       height="800"
-      sizes="700vw"/>
-         
+      sizes="700vw"
+       showThumbs={false}
+      src={URL} key={index} />
+        
         </div>
-        <div class="md:p-2 p-1 w-1/2">
-        <Image class="w-full object-cover h-full object-center block" alt="hero" src={gallery2}
-      width="0"
-      height="800"
-      sizes="700vw"/>
-        </div>
-        <div class="md:p-2 p-1 w-full">
-        <Image class="w-full object-cover h-full object-center block" alt="hero" src={gallery3}
-      width="0"
-      height="800"
-      sizes="700vw"/>
-        </div>
-      </div>
-      <div class="flex flex-wrap w-1/2">
-        <div class="md:p-2 p-1 w-full">
-        <Image class="w-full object-cover h-full object-center block" alt="hero" src={gallery4}
-      width="0"
-      height="800"
-      sizes="700vw"/>
-        </div>
-        <div class="md:p-2 p-1 w-1/2">
-        <Image class="w-full object-cover h-full object-center block" alt="hero" src={gallery5}
-      width="0"
-      height="800"
-      sizes="700vw"/>
-        </div>
-        <div class="md:p-2 p-1 w-1/2">
-        <Image class="w-full object-cover h-full object-center block" alt="hero" src={gallery6}
-      width="0"
-      height="800"
-      sizes="700vw"/>
-        </div>
-      </div>
-    </div>
+      ))}
+    </Carousel>
   </div>
-</section>
-<div class="flex justify-center">
-        <button class="ml-6inline-flex text-white bg-gray-100 border-0 py-2 px-6 focus:outline-none bg-brown rounded font-abc  text-lg">Contact</button>
-      </div>
-
  </div>
 
 )

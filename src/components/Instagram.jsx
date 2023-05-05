@@ -41,20 +41,15 @@ const Instagram = () => {
       <p className="pb-4 font-abc text-brown font-light	" >
       <Link href="https://www.instagram.com/photosbymariamtheugandan/">@mariamtheugandan</Link>
        </p>
-      <div className="grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-6 gap-2 p-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-1 p-4">
         <InstagramImg socialImg={pic1} />
         <InstagramImg socialImg={pic2} />
         <InstagramImg socialImg={pic3} />
         <InstagramImg socialImg={pic4} />
         <InstagramImg socialImg={pic5} />
         <InstagramImg socialImg={pic6} />
-        <InstagramImg socialImg={kulsoom} />
-        <InstagramImg socialImg={gallery1} />
-        <InstagramImg socialImg={gallery3} />
-        <InstagramImg socialImg={wedding} />
-        <InstagramImg socialImg={gallery3} />
-        <InstagramImg socialImg={wedding} />
-        
+     
+      
         
         
       </div>

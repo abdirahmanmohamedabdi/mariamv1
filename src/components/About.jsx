@@ -1,39 +1,50 @@
+/* This example requires Tailwind CSS v2.0+ */
+import kulsoom from "../../public/kulsoom.jpg"
 import Image from "next/image"
-import Self from "../../public/Self.jpg"
 import Link from "next/link"
 
 export default function About() {
   return (
     <div>
+           
 
-      <section class="	">
-        <div class="container mx-auto flex px-2 py-14 sm:flex-row flex-col items-center">
-          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <Image class="object-cover object-center rounded" alt="hero" src={Self}
-              width="0"
-              height="800"
-              sizes="700vw" />
-          </div>
-          <div class="lg:flex-grow md:w-1/2 lg:pl-24  items-center text-justify">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-abc text-gray-900">Hi Im Mariam
-
-            </h1>
-            <p class="mb-4 font-abc 	font-medium text-justify">I am a wedding photographer Who strives to create a personalized experience that reflects your style and personality, ensuring that your images are as unique as your love story. Trust Me to capture your precious memories and turn them into timeless works of art that you can treasure for a lifetime.</p>
-            <div class="flex w-full md:justify-start justify-center items-end">
-
-              <button class="inline-flex text-white bg-brown border-0 py-2 px-6 bg-brown font-abc focus:outline-none rounded-md
-
-text-lg"><Link href="/About">About</Link></button>
-            </div>
+    <div className="relative bg-lightbrown">
+    <div className="relative h-75 2xl:h-72 md:absolute md:left-0 md:h-full sm:w-1/2">
+      <Image
+        className="w-full h-full object-cover"
+        src={kulsoom}
+        alt="picture"
+      />
+      <div
+        aria-hidden="true"
+        className="absolute inset-1  "
+      />
+    </div>
+    <div className="relative mx-auto max-w-lg px-1 py-2 lg:max-w-4xl md:px-2 sm:py- md:py-28 lg:px-1 2xl:py-12">
+      <div className="md:ml-auto md:w-1/3 md:pl-5">
+       
+        <p className="mt-1 text-white text-4xl font-extrabold  font-abc   px-6 mx-20 md:text-6xl">Browse The Portfolio</p>
+      
+        <div className="mt-1">
+          <div className="inline-flex ">
+            <Link
+              href="/portfolio"
+              className="inline-flex items-start justify-right  px-32  py-8 text-base font-abc text-white bg-transparent hover:text-brown underline"
+            >
+             Portfolio
+             
+            </Link>
           </div>
         </div>
-      </section>
-
-
+      </div>
     </div>
+    <div className="mb-4">
+</div>
+  </div>
+
+
+
+</div>
 
   )
 }
-
-
-
