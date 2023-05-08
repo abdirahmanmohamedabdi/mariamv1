@@ -38,7 +38,7 @@ export default function About() {
         </div>
       </div>
     </div>
-    <div className="mb-4">
+    <div className="">
 </div>
   </div>
 

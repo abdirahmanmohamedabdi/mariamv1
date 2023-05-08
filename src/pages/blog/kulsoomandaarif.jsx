@@ -1,5 +1,5 @@
 import Image from "next/image"
-
+import Link from "next/link"
 export default function kulsoomandaarif() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -16,8 +16,8 @@ export default function kulsoomandaarif() {
       </div>
       <div className="w-full md:w-3/4 lg:w-2/2">
         <h2 className="text-3xl md:text-4xl font-abc px-30 font-bold mb-4 mx-auto px-15 text-gray-800">
-        Kulsoom & Aarif’s Dreamy Engagement Session at the Birmingham Botanical Garden and Barber Institute of Fine Arts.
-
+        Kulsoom & Aarif’s Dreamy Engagement Session at the 
+        <span className="text-brown  "><Link href="https://goo.gl/maps/MHssyrCShztDRaFz8?coh=178571&entry=tt" target="_blank"> Birmingham Botanical Garden and Barber Institute of Fine Arts.</Link></span>
         </h2>
         <p className="text-lg font-abc text-gray-700 mb-6">
         Kulsoom and Aarif’s celebrated their love during their dreamy engagement session in two locations; first at the Birmingham Botanical Garden and then at the Barber Institute of Fine Arts in Birmingham UK. This engagement session was simply stunning.

@@ -39,7 +39,7 @@ const Instagram = () => {
     <div className="mx-auto	 text-center py-4">
       <p className="text-2xl font-abc font-bold">Follow me on Instagram</p>
       <p className="pb-4 font-abc text-brown font-light	" >
-      <Link href="https://www.instagram.com/photosbymariamtheugandan/">@mariamtheugandan</Link>
+      <Link href="https://www.instagram.com/mariamphotographyuk/"  target="_blank">@mariamphotographyuk</Link>
        </p>
       <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-1 p-4">
         <InstagramImg socialImg={pic1} />

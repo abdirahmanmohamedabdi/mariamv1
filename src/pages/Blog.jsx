@@ -5,12 +5,12 @@ import Link from "next/link";
 export default function Blog() {
   return (
     <div>
-       <section class="text-gray-600 body-font mt-5 overflow-hidden">
-        <div class="container px-5 py-24 mx-auto">
+      <section class="text-gray-600 body-font mt-5 bg-grey-100 overflow-hidden">
+        <div class="container px-5 py-24 mt-16 mx-auto">
           <div class="lg:w-4/5 mx-auto flex flex-wrap">
             <Image
-             width="1000"
-             height="4000"
+              width="1000"
+              height="4000"
               alt="ecommerce"
               class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
               src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953602/mariam/blog/annabelle/Annobelle___Jamie-15_nt8dy6.jpg"
@@ -40,14 +40,13 @@ export default function Blog() {
           </div>
         </div>
       </section>
-     
 
       <section class="text-gray-600 body-font mt-5 overflow-hidden">
         <div class="container px-5 py-24 mx-auto">
           <div class="lg:w-4/5 mx-auto flex flex-wrap">
             <Image
-             width="2000"
-             height="2000"
+              width="2000"
+              height="2000"
               alt="ecommerce"
               class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
               src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683273986/mariam/blog/joanna/Joanna___Nanfa-70_tyue0d.jpg"
@@ -84,8 +83,8 @@ export default function Blog() {
         <div class="container px-5 py-18 mx-auto">
           <div class="lg:w-4/5 mx-auto flex flex-wrap">
             <Image
-             width="2000"
-             height="2000"
+              width="2000"
+              height="2000"
               alt="ecommerce"
               class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
               src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953669/mariam/blog/hazel/Hazel___Etse-9_kh42fy.jpg"
@@ -123,8 +122,8 @@ export default function Blog() {
         <div class="container px-5 py-24 mx-auto">
           <div class="lg:w-4/5 mx-auto flex flex-wrap">
             <Image
-             width="2000"
-             height="2000"
+              width="2000"
+              height="2000"
               alt="ecommerce"
               class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
               src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953933/mariam/blog/sobia/Sobia___Tawfiq-6_zd6z9l.jpg"
@@ -161,8 +160,8 @@ export default function Blog() {
         <div class="container px-5 py-24 mx-auto">
           <div class="lg:w-4/5 mx-auto flex flex-wrap">
             <Image
-             width="2000"
-             height="2000"
+              width="2000"
+              height="2000"
               alt="ecommerce"
               class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
               src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953867/mariam/blog/N_j/N___J-17_rzbdm2.jpg"
@@ -198,8 +197,8 @@ export default function Blog() {
         <div class="container px-5 py-24 mx-auto">
           <div class="lg:w-4/5 mx-auto flex flex-wrap">
             <Image
-             width="2000"
-             height="2000"
+              width="2000"
+              height="2000"
               alt="ecommerce"
               class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
               src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954045/mariam/blog/Nael/Nael___Lamyae-10_jcqrff.jpg"
@@ -237,8 +236,8 @@ export default function Blog() {
         <div class="container px-5 py-24 mx-auto">
           <div class="lg:w-4/5 mx-auto flex flex-wrap">
             <Image
-             width="2000"
-             height="2000"
+              width="2000"
+              height="2000"
               alt="ecommerce"
               class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
               src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954125/mariam/blog/Pritisha/Pritisha___Ram-4_ucnlzv.jpg"
@@ -262,7 +261,7 @@ export default function Blog() {
               </div>
               <div class="flex">
                 <button class="ml-0 inline-flex font-abc text-white bg-brown border-0 py-2 px-6 focus:outline-none bg-brown rounded font-abc  text-lg">
-                  <Link href="/blog/pritishaandram">Read More</Link>{" "}
+                  <Link href="/blog/pritishaandram">Read More</Link>
                 </button>
               </div>
             </div>
@@ -274,8 +273,8 @@ export default function Blog() {
         <div class="container px-5 py-24 mx-auto">
           <div class="lg:w-4/5 mx-auto flex flex-wrap">
             <Image
-             width="2000"
-             height="2000"
+              width="2000"
+              height="2000"
               alt="ecommerce"
               class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
               src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953549/mariam/blog/kulsoom/Kulsoom___Aarif-11_xtgenw.jpg"
@@ -310,8 +309,8 @@ export default function Blog() {
         <div class="container px-5 py-24 mx-auto">
           <div class="lg:w-4/5 mx-auto flex flex-wrap">
             <Image
-             width="2000"
-             height="2000"
+              width="2000"
+              height="2000"
               alt="ecommerce"
               class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
               src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953746/mariam/blog/jay/Jay___Sachi-17_ayix68.jpg"
@@ -342,9 +341,6 @@ export default function Blog() {
           </div>
         </div>
       </section>
-
-     
-      
     </div>
   );
 }

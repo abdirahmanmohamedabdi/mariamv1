@@ -3,8 +3,8 @@ import Image from "next/image"
 const Bloghome = () => {
   return (
     <div>
-        <section className="text-gray-600 body-font">
-  <div className="container px-5 py-24 mx-auto">
+        <section className="text-gray-600 py-2 body-font">
+  <div className="container px-5 py-1 mx-auto">
     <div className="flex flex-col">
     
     
@@ -25,7 +25,7 @@ const Bloghome = () => {
                 LLProposals to help pull it off.</p>
                 <div className="flex">
                 <button className=" mt-9 inline-flex text-white bg-brown border-0 py-2 px-6 focus:outline-none bg-brown rounded font-abc font-abc  text-lg">
-                  <Link href="/blog/jayandsaachi">Read</Link>{" "}
+                  <Link href="/blog/jayandsaachi">Read</Link>
                 </button>
               </div>
       </div>

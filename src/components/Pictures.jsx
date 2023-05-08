@@ -1,50 +1,176 @@
-import gallery1 from "../../public/gallery1.jpg"
-import gallery2 from "../../public/gallery2.jpg"
-import gallery3 from "../../public/gallery3.jpg"
-import { Carousel } from 'react-responsive-carousel';
+import { useState, useEffect } from "react";
+import Image from "next/image";
+import { Transition } from "@headlessui/react";
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/solid";
 
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import gallery4 from "../../public/gallery4.jpg"
-import gallery5 from "../../public/gallery5.jpg"
-import gallery6 from "../../public/gallery6.jpg"
-import gallery7 from "../../public/gallery7.jpg"
-import sprite from "../../public/sprite.svg"
-import Image from "next/image"
+const slides = [
+  {
+    id: 1,
+    imageUrl:
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953884/mariam/blog/N_j/N___J-28_ulrtoi.jpg",
+    
+  },
+  {
+    id: 2,
+    imageUrl:
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Nael___Lamyae-1_spmp1i.jpg",
+   
+  },
+  {
+    id: 3,
+    imageUrl:
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953874/mariam/blog/N_j/N___J-19_lxk2ic.jpg",
+    
+  },
+  {
+    id: 4,
+    imageUrl:
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524533/mariam/Portfolio-48_swo69m.jpg",
+   
+  },
+  {
+    id: 5,
+    imageUrl:
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Joanna___Nanfa-27_fiwb2e.jpg",
+    
+  },
+  {
+    id: 6,
+    imageUrl:
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Nael___Lamyae-1_spmp1i.jpg",
+   
+  },
+  {
+    id: 7,
+    imageUrl:
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953601/mariam/blog/annabelle/Annobelle___Jamie-13_m5kka8.jpg",
+   
+  },
+  {
+    id: 8,
+    imageUrl:
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953552/mariam/blog/kulsoom/Kulsoom___Aarif-14_wmlv9d.jpg",
+   
+  },
+  {
+    id: 9,
+    imageUrl:
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953599/mariam/blog/annabelle/Annobelle___Jamie-6_mczu4e.jpg",
+   
+  },
+  {
+    id: 10,
+    imageUrl:
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682954127/mariam/blog/Pritisha/Pritisha___Ram-12_fuonh6.jpg",
+   
+  },
+  {
+    id: 11,
+    imageUrl:
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953549/mariam/blog/kulsoom/Kulsoom___Aarif-7_a7cc0z.jpg",
+   
+  },
+  {
+    id: 12,
+    imageUrl:
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682954045/mariam/blog/Nael/Nael___Lamyae-10_jcqrff.jpg",
+   
+  },
+];
 
-export default function Pictures() {
-  const images = [
-    "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524534/mariam/Pritisha___Ram-11_bzz5we.jpg",
-    "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524533/mariam/Sobia___Tawfiq-41_yhxfbt.jpg",
-    "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524533/mariam/Portfolio-48_swo69m.jpg",
-    "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524532/mariam/Portfolio-6_kenzqf.jpg",
-    "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524532/mariam/Portfolio-11_us4m2j.jpg",
-    "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Joanna___Nanfa-27_fiwb2e.jpg",
-    "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953597/mariam/blog/annabelle/Annobelle___Jamie-2_fr2kxs.jpg",
-    "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Nael___Lamyae-1_spmp1i.jpg",
-    "https://res.cloudinary.com/dyijvml1y/image/upload/v1682954123/mariam/blog/Pritisha/Pritisha___Ram-5_x6g1sr.jpg",
-  ];
-  
-    return (
- <div>
- <div className=" relative ">
- 
-    <Carousel useKeyboardArrows={true}>
-      {images.map((URL, index) => (
-        <div className="slide">
-          <Image alt="sample_file"  width="0"
-      height="800"
-      sizes="700vw"
-       showThumbs={false}
-      src={URL} key={index} />
-        
-        </div>
+const Pictures = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentSlide((currentSlide) => (currentSlide + 1) % slides.length);
+    }, 5000);
+
+    return () => clearInterval(intervalId);
+  }, []);
+
+  const slide = slides[currentSlide];
+
+  return (
+    <div className="relative  h-screen">
+      {slides.map((slide, index) => (
+        <Transition
+          key={slide.id}
+          show={index === currentSlide}
+          enter="transition-opacity duration-1000"
+          enterFrom="opacity-0"
+          enterTo="opacity-100"
+          leave="transition-opacity duration-1000"
+          leaveFrom="opacity-100"
+          leaveTo="opacity-0"
+        >
+          <div className="absolute inset-0 mb-5">
+            <Image
+              src={slide.imageUrl}
+              alt=""
+              layout="fill"
+              objectFit="cover"
+            />
+          </div>
+          <div className="absolute inset-0 opacity-75"></div>
+          <div className="absolute inset-0 flex items-center justify-center">
+            
+          </div>
+        </Transition>
       ))}
-    </Carousel>
-  </div>
- </div>
+      <div className="absolute bottom-0 left-0 right-0   flex justify-between">
+        <button
+          className="absolute bottom-20 left-3 h-12 w-12   text-gray-700 hover:text-gray-900 flex items-center justify-center "
+          onClick={() =>
+            setCurrentSlide(
+              currentSlide === 0 ? slides.length - 1 : currentSlide - 1
+            )
+          }
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="icon icon-tabler icon-tabler-arrow-narrow-left h-6  w-6"
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            stroke="#ffffff"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <line x1="5" y1="12" x2="9" y2="16" />
+            <line x1="5" y1="12" x2="9" y2="8" />
+          </svg>
+        </button>
+        <button
+          className="absolute bottom-20 right-3 h-12 w-12
+           text-gray-700 hover:text-gray-900 flex items-center justify-center "
+          onClick={() => setCurrentSlide((currentSlide + 1) % slides.length)}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="icon icon-tabler icon-tabler-arrow-right h-6  w-6"
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            stroke="#ffffff"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <line x1="13" y1="18" x2="19" y2="12" />
+            <line x1="13" y1="6" x2="19" y2="12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  );
+};
 
-)
-}
-
-
-
+export default Pictures;

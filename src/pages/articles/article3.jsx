@@ -1,112 +1,133 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export default function article3() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="flex flex-col items-center justify-center py-16 md:py-32">
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953749/mariam/blog/jay/Jay___Sachi-20_dsnktc.jpg"
-          alt="About photo"
-          width={300}
-          height={900}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="w-full md:w-3/4 lg:w-2/2">
-        <h2 className="text-3xl md:text-4xl font-abc px-30 font-bold mb-4 mx-auto px-15 text-gray-800">
-        Hazel & Etse’s Inter-Cultural Traditional Wedding in Harare, Zimbabwe
+    <div className="container mx-auto pt-7">
+      <div className="max-w-6xl mx-auto  mb-17 sm:px-6 sm:px-12">
+        <h1 className="text-2xl font-bold pt-24 font-abc text-center ">
+          WHY HAVE AN ENGAGEMENT PHOTO SESSION?
+        </h1>
+        <p className="font-abc mb-4">
+          Your engagement is a special time in your life, and it deserves to be
+          captured in beautiful photographs. But engagement sessions aren't just
+          about taking pretty pictures. They are also an important opportunity
+          for you to get comfortable with your photographer before your wedding
+          day. Here are three reasons why engagement sessions are worth the
+          time:
+        </p>
+        <div className="grid grid-cols-2 gap-4 mb-8">
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953602/mariam/blog/annabelle/Annobelle___Jamie-15_nt8dy6.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+        </div>
+        <h2 className="text-2xl font-abc font-bold mb-4">
+          Get Used to Your Photographer
         </h2>
-        <p className="text-lg font-abc text-gray-700 mb-6">
-        Inter-cultural weddings are always beautiful and fascinating, as they bring together different traditions and customs from across the globe. On September 3rd in Harare, Zimbabwe, Etse of the Edo tribe from Nigeria and Hazel of the Shona tribe from Zimbabwe had a stunning inter-cultural traditional wedding known as the Roora in Zimbabwe that celebrated their love and heritage. This is their story.
-
+        <p className="font-abc mb-4">
+          Your wedding photographer will be with you for the entire day,
+          capturing all the important moments of your special day. This is why
+          it's important to get to know your photographer before your wedding
+          day. An engagement session is a perfect opportunity to get comfortable
+          with your photographer's style, personality, and the way they work.
+          You'll be able to see how they direct you in posing and get a feel for
+          their communication style. This way, when it comes to your wedding
+          day, you'll feel more relaxed and comfortable with your photographer.
         </p>
-        <p className="text-lg  font-abc text-gray-700 mb-6">
-        Etse and Hazel met each other through mutual friends and quickly fell in love. They knew from the beginning that their cultures were different, but they were committed to honoring both throughout their relationship. After a few years of dating, Etse proposed to Hazel in a beautiful surprise proposal in Boston, and they decided to have an inter-cultural wedding that honored both their traditions and customs at Hazel’s home in Harare.
-The Roora was a beautiful celebration of the beauty & diversity of African culture; with the bride wearing traditional attire from both Zimbabwe & Nigeria while the groom was decked out in his traditional attire. The Roora was held in a stunning outdoor setting at Zimbali gardens. Etse’s family and friends traveled from all over the world to attend the wedding, and they were dressed in colorful traditional Nigerian attire for the day.
-The wedding ceremony itself was a blend of Nigerian and Zimbabwean traditions. Etse’s family brought gifts for Hazel’s close family members -grandmother, sisters, brothers, etc- as well as for the new couple to bless their new home. There was also a traditional Zimbabwean dance performance that added to the festive atmosphere.
-There was a lot of delicious African cuisine, plenty of dancing and music with the culmination in a wedding cake that was gifted to the couple by Hazel’s cousin.
-The photographs from the wedding captured the beauty and joy of the day perfectly. Etse and Hazel looked stunning in their traditional attire, and the lush greenery of Zimbali Gardens provided a breathtaking backdrop for the photos. The pictures will be treasured by the couple and their families for years to come.
+
+        <h2 className="text-2xl font-abc font-bold mb-4">
+          Get Nerves Out of the Way
+        </h2>
+        <p className="font-abc mb-4">
+          Many couples feel nervous about having their photos taken, especially
+          if they are not used to being in front of the camera. An engagement
+          session can help alleviate some of these nerves and anxieties. By the
+          time your wedding day rolls around, you'll be more comfortable in
+          front of the camera and know what to expect. This can lead to more
+          natural, relaxed photos on your wedding day.
         </p>
-        <p className="text-lg font-abc text-gray-700 mb-6">
-        The wedding blended Nigerian and Zimbabwean traditions seamlessly and was a true representation of the richness and diversity of the cultures of Africa. If you're planning an inter-cultural wedding, take inspiration from Etse and Hazel's celebration, and make your wedding a beautiful and unique representation of your love and cultures.
+        <div className="grid grid-cols-2 gap-4 mb-8">
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953666/mariam/blog/hazel/Hazel___Etse-4_qhx8py.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953745/mariam/blog/jay/Jay___Sachi-16_y6oxey.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536683/mariam/blog/joanna/Joanna___Nanfa-69_r7qg0k.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+        </div>
+        <h2 className="text-2xl font-abc font-bold mb-4">
+          Beautiful Photos to Use Anywhere
+        </h2>
+        <p className="font-abc mb-4">
+          Your engagement photos are more than just a way to capture your love
+          and memories leading up to your wedding day. They can also be used in
+          a variety of ways, such as phone wallpapers, save-the-dates, or even
+          displayed at your wedding reception. By investing in an engagement
+          session, you'll have a collection of beautiful photos that you can use
+          in countless ways. In conclusion, engagement sessions are an important
+          part of the wedding photography experience. They give you a chance to
+          get comfortable with your photographer, get any nerves out of the way,
+          and provide you with beautiful photos to use in a variety of ways.
+          Consider booking an engagement session with your wedding photographer
+          to make the most of your engagement and capture memories that will
+          last a lifetime.
         </p>
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953747/mariam/blog/jay/Jay___Sachi-18_tbmcko.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953746/mariam/blog/jay/Jay___Sachi-17_ayix68.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953746/mariam/blog/jay/Jay___Sachi-2_kdsk4d.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953744/mariam/blog/jay/Jay___Sachi-15_mjvkz8.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953743/mariam/blog/jay/Jay___Sachi-12_zplrai.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953742/mariam/blog/jay/Jay___Sachi-9_oldf4d.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953740/mariam/blog/jay/Jay___Sachi-5_hcsynn.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-
-    </div>
-  </div>
-  )
+        <div className="grid grid-cols-2 gap-4 mb-8">
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953597/mariam/blog/annabelle/Annobelle___Jamie-3_mtmssb.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953549/mariam/blog/kulsoom/Kulsoom___Aarif-7_a7cc0z.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954042/mariam/blog/Nael/Nael___Lamyae-3_bl35eh.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953741/mariam/blog/jay/Jay___Sachi-8_txkhav.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+        </div>
+        </div>
+        </div>
+  );
 }

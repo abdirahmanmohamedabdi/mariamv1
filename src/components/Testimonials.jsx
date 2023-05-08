@@ -27,12 +27,13 @@ export default function Testimonials() {
                 
                 
                 <p className="mt-6 text-2xl font-medium font-abc  text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet
-                  feugiat est integer dolor auctor adipiscing nunc urna, sit.
+                Thank you so so much, Mariam!
+Every time I look at our photos, I get so emotional! You captured so many beautiful moments of our day💛
+After my dad passed, I look at these photos of us from my wedding day and I treasure them even more now because they show how much he loved us & we loved him.
                 </p>
               </div>
               <footer className="mt-6">
-                <p className="text-base font-abc font-medium text-white">Salma and Samira</p>
+                <p className="text-base font-abc font-medium text-white">Naqy & Faiz</p>
                 <p className="text-base font-abc  font-medium text-warm">Wedding</p>
               </footer>
             </blockquote>

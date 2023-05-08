@@ -8,7 +8,7 @@ const slides = [
     id: 1,
     imageUrl:
       "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524533/mariam/Sobia___Tawfiq-41_yhxfbt.jpg",
-    heading: "Capturing your memories, one frame at a time",
+    heading: "THIS IS YOUR LOVE STORY",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tincidunt urna vitae convallis.",
   },
@@ -16,7 +16,7 @@ const slides = [
     id: 2,
     imageUrl:
       "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Nael___Lamyae-1_spmp1i.jpg",
-    heading: "Relive your special day through our lens.",
+    heading: "TIMELESS",
     description:
       "Vivamus tincidunt nibh sed felis convallis, in congue felis consequat. Etiam euismod lacus a nisl ultricies.",
   },
@@ -24,7 +24,7 @@ const slides = [
     id: 3,
     imageUrl:
       "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524533/mariam/Portfolio-48_swo69m.jpg",
-    heading: "Timeless moments, forever preserved",
+    heading: "CANDID + GENUINE",
     description:
       "Praesent interdum eros euismod enim vehicula fringilla. Nulla ullamcorper orci at lacus fermentum tempor.",
   },
@@ -32,7 +32,7 @@ const slides = [
     id: 4,
     imageUrl:
       "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524533/mariam/Portfolio-48_swo69m.jpg",
-    heading: "Let us tell your love story",
+    heading: "THIS IS YOUR LOVE STORY ",
     description:
       "Praesent interdum eros euismod enim vehicula fringilla. Nulla ullamcorper orci at lacus fermentum tempor.",
   },
@@ -40,7 +40,7 @@ const slides = [
     id: 5,
     imageUrl:
       "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Joanna___Nanfa-27_fiwb2e.jpg",
-    heading: "Images that speak louder than words",
+    heading: "PHOTOGRAPHY YOU CAN FEEL",
     description:
       "Praesent interdum eros euismod enim vehicula fringilla. Nulla ullamcorper orci at lacus fermentum tempor.",
   },
@@ -48,7 +48,7 @@ const slides = [
     id: 6,
     imageUrl:
       "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Nael___Lamyae-1_spmp1i.jpg",
-    heading: "Your perfect day, our perfect shots.",
+    heading: "YOUR MEMORIES FOREVER PRESERVED.",
     description:
       "Praesent interdum eros euismod enim vehicula fringilla. Nulla ullamcorper orci at lacus fermentum tempor.",
   },
@@ -56,7 +56,7 @@ const slides = [
     id: 7,
     imageUrl:
       "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953601/mariam/blog/annabelle/Annobelle___Jamie-13_m5kka8.jpg",
-    heading: "Tagline",
+    heading: "CANDID + GENUINE ",
     description:
       "Praesent interdum eros euismod enim vehicula fringilla. Nulla ullamcorper orci at lacus fermentum tempor.",
   },
@@ -64,7 +64,7 @@ const slides = [
     id: 8,
     imageUrl:
       "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953552/mariam/blog/kulsoom/Kulsoom___Aarif-14_wmlv9d.jpg",
-    heading: "Another one.",
+    heading: "YOUR MEMORIES FOREVER PRESERVED",
     description:
       "Praesent interdum eros euismod enim vehicula fringilla. Nulla ullamcorper orci at lacus fermentum tempor.",
   },
@@ -84,7 +84,7 @@ const HeroSlider = () => {
   const slide = slides[currentSlide];
 
   return (
-    <div className="relative h-screen">
+    <div className="relative  h-screen">
       {slides.map((slide, index) => (
         <Transition
           key={slide.id}
@@ -114,9 +114,9 @@ const HeroSlider = () => {
           </div>
         </Transition>
       ))}
-      <div className="absolute bottom-0 left-3 right-3   flex justify-between">
+      <div className="absolute bottom-0 left-0 right-0   flex justify-between">
         <button
-          className="absolute bottom-20 left-0 h-12 w-12   text-gray-700 hover:text-gray-900 flex items-center justify-center shadow"
+          className="absolute bottom-20 left-3 h-12 w-12   text-gray-700 hover:text-gray-900 flex items-center justify-center shadow"
           onClick={() =>
             setCurrentSlide(
               currentSlide === 0 ? slides.length - 1 : currentSlide - 1
@@ -142,7 +142,7 @@ const HeroSlider = () => {
           </svg>
         </button>
         <button
-          className="absolute bottom-20 right-0 h-6 w-6
+          className="absolute bottom-20 right-3 h-12 w-12
            text-gray-700 hover:text-gray-900 flex items-center justify-center shadow"
           onClick={() => setCurrentSlide((currentSlide + 1) % slides.length)}
         >

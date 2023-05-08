@@ -1,5 +1,5 @@
 import Image from "next/image"
-
+import Link from "next/link"
 export default function naelandlmayae() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -16,8 +16,8 @@ export default function naelandlmayae() {
       </div>
       <div className="w-full md:w-3/4 lg:w-2/2">
         <h2 className="text-3xl md:text-4xl font-abc px-30 font-bold mb-4 mx-auto px-15 text-gray-800">
-        Nael Surprises Lamyae with a New Year's Eve Proposal at St. Dunstan in the East in London
-
+        Nael Surprises Lamyae with a New Year's Eve Proposal at 
+        <span className="text-brown  "><Link href="https://goo.gl/maps/Zq8WyR3a2fYhE1o17?coh=178571&entry=tt" target="_blank"> St. Dunstan in the East in London</Link></span>
         </h2>
         <p className="text-lg font-abc text-gray-700 mb-6">
         Nael and Lamyae were in London on a couple's vacation from Belgium for the last week of the year. Little did Lamyae know, Nael had a surprise proposal planned at one of the most beautiful and historic locations in the city, St. Dunstan in the East Church Garden. This is the story of how their romantic proposal happened.
@@ -25,7 +25,7 @@ export default function naelandlmayae() {
 
         </p>
         <p className="text-lg  font-abc text-gray-700 mb-6">
-        Nael reached out to one of the best proposal planners in London (and my good friend), L&L Proposals, to help him organize this once in a lifetime surprise for Lamyae. He knew Lamyae was a lover of history & the old architecture that characterizes London and chose St. Dunstan as his location
+        Nael reached out to one of the best proposal planners in London (and my good friend),<span className="text-brown font-bold "><Link href="https://llproposals.com/" target="_blank">  L&LProposals</Link></span> to help him organize this once in a lifetime surprise for Lamyae. He knew Lamyae was a lover of history & the old architecture that characterizes London and chose St. Dunstan as his location
 St. Dunstan in the East Church Garden is a garden in London, UK filled with history, romance and charm. As the couple walked through the garden, Nael led Lamyae to a secluded spot which Lisa & her team had decorated earlier with candles, roses & champagne. He, he got down on one knee and proposed to her.
 Lamyae was taken by complete surprise, but she said yes without hesitation. She was blown away by the thought that Nael had thought into choosing the perfect location and the perfect moment to ask her to spend the rest of their lives together. The couple's love was evident as they hugged and kissed in the beautiful surroundings.
 St. Dunstan in the East is the perfect for a romantic proposal, with its stunning architecture and tranquil surroundings. The garden was decorated with candles, twinkling lights and festive New Year decorations, adding to the romance of the moment. We then captured the moment with a few pictures, documenting the memories they will cherish for a lifetime.

@@ -1,112 +1,220 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export default function article4() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="flex flex-col items-center justify-center py-16 md:py-32">
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953749/mariam/blog/jay/Jay___Sachi-20_dsnktc.jpg"
-          alt="About photo"
-          width={300}
-          height={900}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="w-full md:w-3/4 lg:w-2/2">
-        <h2 className="text-3xl md:text-4xl font-abc px-30 font-bold mb-4 mx-auto px-15 text-gray-800">
-        Hazel & Etse’s Inter-Cultural Traditional Wedding in Harare, Zimbabwe
+    <div className="container mx-auto pt-12">
+      <div className="max-w-6xl mx-auto  mb-17 sm:px-6 sm:px-12">
+        <h1 className="text-2xl font-bold pt-24 font-abc text-center ">
+          DON’T REGRET YOUR WEDDING PHOTOS
+        </h1>
+        <p className="font-abc mb-4">
+          Your wedding day is one of the most important days of your life, and
+          you want to make sure that every moment is captured perfectly.
+          Unfortunately, there are some common mistakes that can lead to wedding
+          photo regrets. Here are the top four biggest regrets I’ve heard
+          couples express about their wedding photos:
+        </p>
+
+        <div className="my-8">
+          <h2 className="text-2xl font-abc font-bold mb-4">
+            No Photos of the Special Moments of the Day
+          </h2>
+          <p className="font-abc mb-4">
+            One of the biggest regrets couples have about their wedding photos
+            is not having enough photos of the special moments of the day. This
+            can include the first look, the first dance, the exchange of vows,
+            and other important moments. To avoid this regret, make sure to
+            communicate with your photographer ahead of time about the specific
+            moments you want to be captured.
+          </p>
+          <div className="grid grid-cols-2 gap-4 mb-8">
+            <div className="relative h-96">
+              <Image
+                src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953797/mariam/blog/joanna/Joanna___Nanfa-13_erfbol.jpg"
+                layout="fill"
+                objectFit="cover"
+                alt="Engagement photo 1"
+              />
+            </div>
+            <div className="relative h-96">
+              <Image
+                src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953874/mariam/blog/N_j/N___J-19_lxk2ic.jpg"
+                layout="fill"
+                objectFit="cover"
+                alt="Engagement photo 1"
+              />
+            </div>
+            <div className="relative h-96">
+              <Image
+                src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953740/mariam/blog/jay/Jay___Sachi-5_hcsynn.jpg"
+                layout="fill"
+                objectFit="cover"
+                alt="Engagement photo 1"
+              />
+            </div>
+            <div className="relative h-96">
+              <Image
+                src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538033/mariam/blog/sobia/Sobia___Tawfiq-35_ngwpbn.jpg"
+                layout="fill"
+                objectFit="cover"
+                alt="Engagement photo 1"
+              />
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-abc font-bold mb-4">
+        Unflattering Poses
+
         </h2>
-        <p className="text-lg font-abc text-gray-700 mb-6">
-        Inter-cultural weddings are always beautiful and fascinating, as they bring together different traditions and customs from across the globe. On September 3rd in Harare, Zimbabwe, Etse of the Edo tribe from Nigeria and Hazel of the Shona tribe from Zimbabwe had a stunning inter-cultural traditional wedding known as the Roora in Zimbabwe that celebrated their love and heritage. This is their story.
+        <p className="font-abc mb-4">
+        Another regret couples have is unflattering poses. It's important to work with a photographer who is experienced in posing and can guide you to pose in a way that flatters your body. Be sure to communicate any insecurities you have with your photographer so they can work with you to create poses that make you feel comfortable and confident.
+        </p>
+        <div className="grid grid-cols-2 gap-4 mb-8">
+            <div className="relative h-96">
+              <Image
+                src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683274299/mariam/blog/joanna/Joanna___Nanfa-38_e8h7hh.jpg"
+                layout="fill"
+                objectFit="cover"
+                alt="Engagement photo 1"
+              />
+            </div>
+            <div className="relative h-96">
+              <Image
+                src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953939/mariam/blog/sobia/Sobia___Tawfiq-4_y6hrhn.jpg"
+                layout="fill"
+                objectFit="cover"
+                alt="Engagement photo 1"
+              />
+            </div>
+            <div className="relative h-96">
+              <Image
+                src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953939/mariam/blog/sobia/Sobia___Tawfiq-7_z3yyqk.jpg"
+                layout="fill"
+                objectFit="cover"
+                alt="Engagement photo 1"
+              />
+            </div>
+            <div className="relative h-96">
+              <Image
+                src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536685/mariam/blog/joanna/Joanna___Nanfa-38_qwfacc.jpg"
+                layout="fill"
+                objectFit="cover"
+                alt="Engagement photo 1"
+              />
+            </div>
+            
+          </div>
+          <h2 className="text-2xl font-abc font-bold mb-4">
+          Harsh Unnatural Editing
+
+
+        </h2>
+        <p className="font-abc mb-4">
+        While editing can enhance the overall look of your photos, couples often regret harsh and unnatural editing. This can include overly saturated colors, heavy-handed retouching, and other editing techniques that make the photos look less natural. To avoid this regret, make sure to discuss the editing style with your photographer before the wedding day.
 
         </p>
-        <p className="text-lg  font-abc text-gray-700 mb-6">
-        Etse and Hazel met each other through mutual friends and quickly fell in love. They knew from the beginning that their cultures were different, but they were committed to honoring both throughout their relationship. After a few years of dating, Etse proposed to Hazel in a beautiful surprise proposal in Boston, and they decided to have an inter-cultural wedding that honored both their traditions and customs at Hazel’s home in Harare.
-The Roora was a beautiful celebration of the beauty & diversity of African culture; with the bride wearing traditional attire from both Zimbabwe & Nigeria while the groom was decked out in his traditional attire. The Roora was held in a stunning outdoor setting at Zimbali gardens. Etse’s family and friends traveled from all over the world to attend the wedding, and they were dressed in colorful traditional Nigerian attire for the day.
-The wedding ceremony itself was a blend of Nigerian and Zimbabwean traditions. Etse’s family brought gifts for Hazel’s close family members -grandmother, sisters, brothers, etc- as well as for the new couple to bless their new home. There was also a traditional Zimbabwean dance performance that added to the festive atmosphere.
-There was a lot of delicious African cuisine, plenty of dancing and music with the culmination in a wedding cake that was gifted to the couple by Hazel’s cousin.
-The photographs from the wedding captured the beauty and joy of the day perfectly. Etse and Hazel looked stunning in their traditional attire, and the lush greenery of Zimbali Gardens provided a breathtaking backdrop for the photos. The pictures will be treasured by the couple and their families for years to come.
+        <h2 className="text-2xl font-abc font-bold mb-4">
+        Late Delivery
+
+
+
+        </h2>
+        <p className="font-abc mb-4">
+        Lastly, couples often regret late delivery of their wedding photos. Waiting too long for your photos can be frustrating and take away from the excitement and memories of your wedding day. Make sure to discuss a timeline for photo delivery with your photographer and get it in writing to avoid any miscommunication.
+
         </p>
-        <p className="text-lg font-abc text-gray-700 mb-6">
-        The wedding blended Nigerian and Zimbabwean traditions seamlessly and was a true representation of the richness and diversity of the cultures of Africa. If you're planning an inter-cultural wedding, take inspiration from Etse and Hazel's celebration, and make your wedding a beautiful and unique representation of your love and cultures.
+        <p className="font-abc mb-4">
+        By being aware of these common wedding photo regrets, you can take steps to avoid them and ensure that you have beautiful, lasting memories of your special day.
+Choose a photographer who is experienced, communicates well, and understands your vision for your wedding photos. With careful planning and communication, you can avoid these regrets and enjoy your wedding photos for years to come.
+
+
         </p>
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953747/mariam/blog/jay/Jay___Sachi-18_tbmcko.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
+
+        <div className="grid grid-cols-2 gap-4 mb-8">
+            <div className="relative h-96">
+              <Image
+                src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536684/mariam/blog/joanna/Joanna___Nanfa-31_yvuv4k.jpg"
+                layout="fill"
+                objectFit="cover"
+                alt="Engagement photo 1"
+              />
+            </div>
+            <div className="relative h-96">
+              <Image
+                src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953671/mariam/blog/hazel/Hazel___Etse-16_rm6w1r.jpg"
+                layout="fill"
+                objectFit="cover"
+                alt="Engagement photo 1"
+              />
+            </div>
+            <div className="relative h-96">
+              <Image
+                src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953934/mariam/blog/sobia/Sobia___Tawfiq-8_jokdty.jpg"
+                layout="fill"
+                objectFit="cover"
+                alt="Engagement photo 1"
+              />
+            </div>
+            <div className="relative h-96">
+              <Image
+                src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538039/mariam/blog/sobia/Sobia___Tawfiq-31_uxinzd.jpg"
+                layout="fill"
+                objectFit="cover"
+                alt="Engagement photo 1"
+              />
+            </div>
+            </div>
       </div>
 
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953746/mariam/blog/jay/Jay___Sachi-17_ayix68.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
+      
 
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953746/mariam/blog/jay/Jay___Sachi-2_kdsk4d.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
+        {/* <div className="grid grid-cols-2 gap-4 mb-8">
+          <img
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683274299/mariam/blog/joanna/Joanna___Nanfa-38_e8h7hh.jpg"
+            alt="Couple 1"
+            className="w-1/2 md:w-1/3 lg:w-1/4 h-64 object-cover rounded-lg shadow-lg mr-4 mb-4"
+          />
+          <img
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953939/mariam/blog/sobia/Sobia___Tawfiq-4_y6hrhn.jpg"
+            alt="Couple 2"
+            className="w-1/2 md:w-1/3 lg:w-1/4 h-64 object-cover rounded-lg shadow-lg mr-4 mb-4"
+          />
+          <img
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953939/mariam/blog/sobia/Sobia___Tawfiq-7_z3yyqk.jpg"
+            alt="Couple 3"
+            className="w-1/2 md:w-1/3 lg:w-1/4 h-64 object-cover rounded-lg shadow-lg mr-4 mb-4"
+          />
+          <img
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683274299/mariam/blog/joanna/Joanna___Nanfa-36_eh2sdt.jpg"
+            alt="Couple 4"
+            className="w-1/2 md:w-1/3 lg:w-1/4 h-64 object-cover rounded-lg shadow-lg mr-4 mb-4"
+          />
+        </div> */}
+        
+        {/* <div className="grid grid-cols-2 gap-4 mb-8">
+          <img
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953934/mariam/blog/sobia/Sobia___Tawfiq-8_jokdty.jpg"
+            alt="Couple 1"
+            className="w-1/2 md:w-1/3 lg:w-1/4 h-64 object-cover rounded-lg shadow-lg mr-4 mb-4"
+          />
+          <img
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953890/mariam/blog/N_j/N___J-29_gi3z4z.jpg"
+            alt="Couple 2"
+            className="w-1/2 md:w-1/3 lg:w-1/4 h-64 object-cover rounded-lg shadow-lg mr-4 mb-4"
+          />
+          <img
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953667/mariam/blog/hazel/Hazel___Etse-8_dmeajf.jpg"
+            alt="Couple 3"
+            className="w-1/2 md:w-1/3 lg:w-1/4 h-64 object-cover rounded-lg shadow-lg mr-4 mb-4"
+          />
+          <img
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953664/mariam/blog/hazel/Hazel___Etse-5_ygphyr.jpg"
+            alt="Couple 4"
+            className="w-1/2 md:w-1/3 lg:w-1/4 h-64 object-cover rounded-lg shadow-lg mr-4 mb-4"
+          />
+        
+        </div> */}
       </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953744/mariam/blog/jay/Jay___Sachi-15_mjvkz8.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953743/mariam/blog/jay/Jay___Sachi-12_zplrai.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953742/mariam/blog/jay/Jay___Sachi-9_oldf4d.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953740/mariam/blog/jay/Jay___Sachi-5_hcsynn.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-
-    </div>
-  </div>
-  )
+ 
+  );
 }

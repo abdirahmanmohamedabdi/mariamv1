@@ -3,111 +3,138 @@ import Image from "next/image"
 
 export default function article2() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="flex flex-col items-center justify-center py-16 md:py-32">
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953749/mariam/blog/jay/Jay___Sachi-20_dsnktc.jpg"
-          alt="About photo"
-          width={300}
-          height={900}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="w-full md:w-3/4 lg:w-2/2">
-        <h2 className="text-3xl md:text-4xl font-abc px-30 font-bold mb-4 mx-auto px-15 text-gray-800">
-        Hazel & Etse’s Inter-Cultural Traditional Wedding in Harare, Zimbabwe
-        </h2>
-        <p className="text-lg font-abc text-gray-700 mb-6">
-        Inter-cultural weddings are always beautiful and fascinating, as they bring together different traditions and customs from across the globe. On September 3rd in Harare, Zimbabwe, Etse of the Edo tribe from Nigeria and Hazel of the Shona tribe from Zimbabwe had a stunning inter-cultural traditional wedding known as the Roora in Zimbabwe that celebrated their love and heritage. This is their story.
+    <div className="container mx-auto pt-7">
+    <div className="max-w-6xl mx-auto  mb-17 sm:px-6 sm:px-12">
+      <h1 className="text-2xl font-bold pt-24 font-abc text-center ">
+      PREPARING FOR YOUR ENGAGEMENT SESSION (Pt. 2)
 
-        </p>
-        <p className="text-lg  font-abc text-gray-700 mb-6">
-        Etse and Hazel met each other through mutual friends and quickly fell in love. They knew from the beginning that their cultures were different, but they were committed to honoring both throughout their relationship. After a few years of dating, Etse proposed to Hazel in a beautiful surprise proposal in Boston, and they decided to have an inter-cultural wedding that honored both their traditions and customs at Hazel’s home in Harare.
-The Roora was a beautiful celebration of the beauty & diversity of African culture; with the bride wearing traditional attire from both Zimbabwe & Nigeria while the groom was decked out in his traditional attire. The Roora was held in a stunning outdoor setting at Zimbali gardens. Etse’s family and friends traveled from all over the world to attend the wedding, and they were dressed in colorful traditional Nigerian attire for the day.
-The wedding ceremony itself was a blend of Nigerian and Zimbabwean traditions. Etse’s family brought gifts for Hazel’s close family members -grandmother, sisters, brothers, etc- as well as for the new couple to bless their new home. There was also a traditional Zimbabwean dance performance that added to the festive atmosphere.
-There was a lot of delicious African cuisine, plenty of dancing and music with the culmination in a wedding cake that was gifted to the couple by Hazel’s cousin.
-The photographs from the wedding captured the beauty and joy of the day perfectly. Etse and Hazel looked stunning in their traditional attire, and the lush greenery of Zimbali Gardens provided a breathtaking backdrop for the photos. The pictures will be treasured by the couple and their families for years to come.
-        </p>
-        <p className="text-lg font-abc text-gray-700 mb-6">
-        The wedding blended Nigerian and Zimbabwean traditions seamlessly and was a true representation of the richness and diversity of the cultures of Africa. If you're planning an inter-cultural wedding, take inspiration from Etse and Hazel's celebration, and make your wedding a beautiful and unique representation of your love and cultures.
-        </p>
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953747/mariam/blog/jay/Jay___Sachi-18_tbmcko.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
 
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953746/mariam/blog/jay/Jay___Sachi-17_ayix68.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
+      </h1>
+      <p className="font-abc mb-4">
+      Let’s continue with tips on getting ready for your engagement photo session. Remember, this is an exciting time for you and your partner, and you want your photos to reflect your love and happiness. To make sure your engagement photos are a success, there are a few things more you can do to prepare. Here are four ways to prepare for an engagement photo session:
 
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953746/mariam/blog/jay/Jay___Sachi-2_kdsk4d.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953744/mariam/blog/jay/Jay___Sachi-15_mjvkz8.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953743/mariam/blog/jay/Jay___Sachi-12_zplrai.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953742/mariam/blog/jay/Jay___Sachi-9_oldf4d.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953740/mariam/blog/jay/Jay___Sachi-5_hcsynn.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
 
-    </div>
+      </p>
+      <h2 className="text-2xl font-abc font-bold mb-4">
+      Choose the Right Location
+
+      </h2>
+      <p className="font-abc mb-4">
+      The location you choose for your engagement photos can set the tone for the entire shoot. Consider a location that has special meaning to you and your partner, such as the place where you had your first date or where you got engaged. You can also choose a location that has a beautiful backdrop, such as a park, beach, or cityscape. Whatever location you choose, make sure it reflects your personalities and style as a couple.
+When choosing a location, keep in mind the time of day and lighting. If you want to capture a specific type of lighting, such as golden hour, talk to your photographer to plan the best time to shoot.
+
+
+      </p>
+      <div className="grid grid-cols-2 gap-4 mb-8">
+        <div className="relative h-96">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954126/mariam/blog/Pritisha/Pritisha___Ram-9_gmnkrj.jpg"
+            layout="fill"
+            objectFit="cover"
+            alt="Engagement photo 1"
+          />
+        </div>
+        <div className="relative h-96">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953549/mariam/blog/kulsoom/Kulsoom___Aarif-11_xtgenw.jpg"
+            layout="fill"
+            objectFit="cover"
+            alt="Engagement photo 1"
+          />
+        </div>
+        <div className="relative h-96">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953599/mariam/blog/annabelle/Annobelle___Jamie-6_mczu4e.jpg"
+            layout="fill"
+            objectFit="cover"
+            alt="Engagement photo 1"
+          />
+        </div>
+        <div className="relative h-96">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954041/mariam/blog/Nael/Nael___Lamyae-4_zdkcvu.jpg"
+            layout="fill"
+            objectFit="cover"
+            alt="Engagement photo 1"
+          />
+        </div>
+        
+      </div>
+      <h2 className="text-2xl font-abc font-bold mb-4">
+      Choose a Theme and Style for Your Shoot
+
+
+
+      </h2>
+      <p className="font-abc mb-4">
+      Think about the look and feel you want for your engagement photos. Do you want a classic and timeless look, or something more modern and trendy? Do you want a romantic and dreamy vibe, or something more fun and playful? Choosing a theme and style for your shoot will help you and your photographer plan the perfect outfits, props, and poses to capture the mood you're going for.
+
+
+      </p>
+      <h2 className="text-2xl font-abc font-bold mb-4">
+      Trust Your Photographer's Vision
+
+
+
+
+      </h2>
+      <p className="font-abc mb-4">
+      Your photographer is a professional who has experience capturing engagement photos. Trust their vision and let them guide you through the process. Your photographer may have creative ideas for poses, props, and locations that you haven't thought of. Trusting your photographer's expertise can help you relax and enjoy the shoot.
+
+
+      </p>
+      <h2 className="text-2xl font-abc font-bold mb-4">
+      Enjoy Yourselves
+
+
+
+
+      </h2>
+      <p className="font-abc mb-4">
+      The most important thing to remember during your engagement photo session is to have fun! This is a special time for you and your partner, and your photos should reflect that. Laugh, cuddle, and enjoy each other's company. Your photographer will capture the love and happiness between you.
+
+
+
+      </p>
+       
+      <div className="grid grid-cols-2 gap-4 mb-8">
+       
+      
+        <div className="relative h-96">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954043/mariam/blog/Nael/Nael___Lamyae-7_sz77pg.jpg"
+            layout="fill"
+            objectFit="cover"
+            alt="Engagement photo 1"
+          />
+        </div>
+        <div className="relative h-auto">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954043/mariam/blog/Nael/Nael___Lamyae-9_pgrkdz.jpg"
+            layout="fill"
+            objectFit="cover"
+            alt="Engagement photo 1"
+          />
+        </div>
+        
+      </div>
+    
+ 
+    
+      <p className="font-abc mb-4">
+     
+      By following these four ways to prepare for an engagement photo session, you'll be sure to have a successful and enjoyable experience. Remember to choose the right location, choose a theme and style, trust your photographer's vision, and most importantly, have fun!
+
+
+
+
+      </p>
+     </div>
+   
   </div>
+
+
   )
 }
+
+  

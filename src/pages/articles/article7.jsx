@@ -1,117 +1,243 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export default function article7() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="flex flex-col items-center justify-center py-16 md:py-32">
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953749/mariam/blog/jay/Jay___Sachi-20_dsnktc.jpg"
-          alt="About photo"
-          width={300}
-          height={900}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="w-full md:w-3/4 lg:w-2/2">
-        <h2 className="text-3xl md:text-4xl font-abc px-30 font-bold mb-4 mx-auto px-15 text-gray-800">
-        PREPARING FOR YOUR ENGAGEMENT SESSION
+    <div className="container mx-auto pt-7">
+      <div className="max-w-6xl mx-auto  mb-17 sm:px-6 sm:px-12">
+        <h1 className="text-2xl font-bold pt-24 font-abc text-center ">
+          PRECIOUS WEDDING DAY MEMORIES
+        </h1>
+        <p className="font-abc mb-4">
+          A wedding day is full of precious moments that you'll want to remember
+          for a lifetime. As a wedding photographer, it's important to capture
+          all the important parts of the day so that the couple can relive those
+          memories for years to come. Here are some of the most important parts
+          of the wedding day to photograph:
+        </p>
+        <h2 className="text-2xl font-abc font-bold mb-4">
+          The bride getting ready
         </h2>
-        <p className="text-lg font-abc text-gray-700 mb-6">
-        Getting ready for an engagement photo session can be both exciting and nerve-wracking. You want to look your best and capture the love and happiness between you and your partner. To make sure your engagement photos are a success, there are two important things you should know before your session: how long it takes and what to wear.
+        <p className="font-abc mb-4">
+          The bridal preparation is one of the most emotional and intimate
+          moments of the day. It's a time when the bride and her bridal party
+          are getting ready, getting their hair and makeup done, and putting on
+          their dresses. This is the perfect time to capture candid shots of the
+          bride's excitement, nervousness, and joy.
+        </p>
+        <div className="grid grid-cols-2 gap-4 mb-8">
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953796/mariam/blog/joanna/Joanna___Nanfa-10_qnixko.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953797/mariam/blog/joanna/Joanna___Nanfa-13_erfbol.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953795/mariam/blog/joanna/Joanna___Nanfa-6_h9dkjr.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953795/mariam/blog/joanna/Joanna___Nanfa-8_ydc12r.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          
+        </div>
+        <h2 className="text-2xl font-abc font-bold mb-4">
+        The groom getting ready
 
-How Long It Takes
-Engagement photo sessions typically take at least two hours to allow for at least one outfit change and to build rapport with your photographer. You may also want to change locations during your session, which can take additional time.
-It's important to give yourself enough time for your engagement photo session so that you don't feel rushed or stressed. When you're relaxed and comfortable, your photos will reflect that.
+        </h2>
+        <p className="font-abc mb-4">
+        While the bride's preparation is often the focus, it's equally important to capture the groom getting ready. This is a time when the groom and his groomsmen are getting dressed, putting on their boutonnieres, and sharing a drink or two. These candid shots will capture the groom's excitement and anticipation for the big day.
+
+        </p>
+        <div className="grid grid-cols-2 gap-4 mb-8">
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953798/mariam/blog/joanna/Joanna___Nanfa-19_bx65dv.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953799/mariam/blog/joanna/Joanna___Nanfa-20_ikuivf.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536680/mariam/blog/joanna/Joanna___Nanfa-22_nolglg.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536680/mariam/blog/joanna/Joanna___Nanfa-21_kzdses.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          
+        </div>
+        <h2 className="text-2xl font-abc font-bold mb-4">
+        The ceremony
+        </h2>
+        <p className="font-abc mb-4">
+        The ceremony is the heart of the wedding day, and it's important to capture all the key moments. This includes the bride walking down the aisle, the exchange of vows, the ring exchange, the first kiss, and the exit as newlyweds. It's important to capture these moments from different angles and perspectives to get a variety of shots.
+
+        </p>
+        <div className="grid grid-cols-2 gap-4 mb-8">
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538035/mariam/blog/sobia/Sobia___Tawfiq-28_yojxby.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538028/mariam/blog/sobia/Sobia___Tawfiq-21_wr0unf.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538027/mariam/blog/sobia/Sobia___Tawfiq-30_h2lojj.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538020/mariam/blog/sobia/Sobia___Tawfiq-15_wxicqx.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          
+        </div>
+        <h2 className="text-2xl font-abc font-bold mb-4">
+        The reception
+
+        </h2>
+        <p className="font-abc mb-4">
+        The reception is the time when the couple and their guests let loose and have fun. It's important to capture the first dance, the toasts, the cutting of the cake, and the dancing. It's also important to capture candid shots of the guests enjoying themselves, laughing, and having a good time.
+
+        </p>
+        <div className="grid grid-cols-2 gap-4 mb-8">
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536684/mariam/blog/joanna/Joanna___Nanfa-72_naslw3.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536684/mariam/blog/joanna/Joanna___Nanfa-74_gcdtrh.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536684/mariam/blog/joanna/Joanna___Nanfa-71_tzh1ul.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536684/mariam/blog/joanna/Joanna___Nanfa-73_dfrgu3.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          
+        </div>
+        <h2 className="text-2xl font-abc font-bold mb-4">
+        Details
+
+        </h2>
+        <p className="font-abc mb-4">
+        Details are what make each wedding unique, and it's important to capture them all. This includes the wedding dress, the shoes, the rings, the bouquets, the centerpieces, and the décor. These shots will help to tell the story of the wedding day and will be treasured by the couple for years to come.
+
+        </p>
+        <div className="grid grid-cols-2 gap-4 mb-8">
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536683/mariam/blog/joanna/Joanna___Nanfa-70_qaggqp.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536683/mariam/blog/joanna/Joanna___Nanfa-68_qjq3gd.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536682/mariam/blog/joanna/Joanna___Nanfa-29_uy7yon.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          <div className="relative h-96">
+            <Image
+              src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536682/mariam/blog/joanna/Joanna___Nanfa-63_uasic5.jpg"
+              layout="fill"
+              objectFit="cover"
+              alt="Engagement photo 1"
+            />
+          </div>
+          
+        </div>
+        <p className="font-abc mb-4">
+        By focusing on the bride and groom getting ready, the ceremony, the reception, and the details, you can create a beautiful and comprehensive collection of images that will capture the magic of the day.
+Be sure to communicate with the couple ahead of time to ensure that you're capturing all the shots they want and to make a shot list if necessary.
 
 
         </p>
-        <p className="text-lg  font-abc text-gray-700 mb-6">
-        Etse and Hazel met each other through mutual friends and quickly fell in love. They knew from the beginning that their cultures were different, but they were committed to honoring both throughout their relationship. After a few years of dating, Etse proposed to Hazel in a beautiful surprise proposal in Boston, and they decided to have an inter-cultural wedding that honored both their traditions and customs at Hazel’s home in Harare.
-The Roora was a beautiful celebration of the beauty & diversity of African culture; with the bride wearing traditional attire from both Zimbabwe & Nigeria while the groom was decked out in his traditional attire. The Roora was held in a stunning outdoor setting at Zimbali gardens. Etse’s family and friends traveled from all over the world to attend the wedding, and they were dressed in colorful traditional Nigerian attire for the day.
-The wedding ceremony itself was a blend of Nigerian and Zimbabwean traditions. Etse’s family brought gifts for Hazel’s close family members -grandmother, sisters, brothers, etc- as well as for the new couple to bless their new home. There was also a traditional Zimbabwean dance performance that added to the festive atmosphere.
-There was a lot of delicious African cuisine, plenty of dancing and music with the culmination in a wedding cake that was gifted to the couple by Hazel’s cousin.
-The photographs from the wedding captured the beauty and joy of the day perfectly. Etse and Hazel looked stunning in their traditional attire, and the lush greenery of Zimbali Gardens provided a breathtaking backdrop for the photos. The pictures will be treasured by the couple and their families for years to come.
-        </p>
-        <p className="text-lg font-abc text-gray-700 mb-6">
-        The wedding blended Nigerian and Zimbabwean traditions seamlessly and was a true representation of the richness and diversity of the cultures of Africa. If you're planning an inter-cultural wedding, take inspiration from Etse and Hazel's celebration, and make your wedding a beautiful and unique representation of your love and cultures.
-        </p>
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953747/mariam/blog/jay/Jay___Sachi-18_tbmcko.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953746/mariam/blog/jay/Jay___Sachi-17_ayix68.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953746/mariam/blog/jay/Jay___Sachi-2_kdsk4d.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953744/mariam/blog/jay/Jay___Sachi-15_mjvkz8.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953743/mariam/blog/jay/Jay___Sachi-12_zplrai.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953742/mariam/blog/jay/Jay___Sachi-9_oldf4d.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953740/mariam/blog/jay/Jay___Sachi-5_hcsynn.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-
+       </div>
+     
     </div>
-  </div>
-  )
+  );
 }
