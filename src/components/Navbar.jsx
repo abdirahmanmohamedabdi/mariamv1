@@ -22,7 +22,7 @@ const Nav = () => {
     >
       <div className="max-w-[1040px] m-auto flex justify-between items-center p-1 text-black">
         <Link href="/">
-          <Image src={logo} style={{ color: `${textColor}` }} className="h-30 w-28">
+          <Image src={logo} style={{ color: `${textColor}` }}   alt="navbar logo" className="h-30 w-28">
           
           </Image>
         </Link>
@@ -68,7 +68,7 @@ const Nav = () => {
           <ul>
             <li>
             <Link href="/">
-          <Image src={logo} style={{ color: `${textColor}` }} className="h-30 w-48">
+          <Image src={logo} style={{ color: `${textColor}` }}  alt="navbar logo" className="h-30 w-48">
           
           </Image>
         </Link>

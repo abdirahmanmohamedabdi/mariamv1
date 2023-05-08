@@ -1,5 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import Head from "next/head"
+import Image from "next/image"
+import Link from "next/link"
 const posts = [
     {
       title: 'PREPARING FOR YOUR ENGAGEMENT SESSION',
@@ -83,11 +85,7 @@ const posts = [
   export default function Articles() {
     return (
       <div>
-      <Head>
-   
-<link rel="shortcut icon" href="/sprite.svg" />
-      
-    </Head>
+
       <div className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
         <div className="absolute inset-0">
           <div className="bg-white h-1/3 sm:h-2/3" />
@@ -101,14 +99,15 @@ const posts = [
             {posts.map((post) => (
               <div key={post.title} className="flex flex-col rounded-lg shadow-lg font-abc overflow-hidden">
                 <div className="flex-shrink-0">
-                  <img className="h-48 w-full object-cover" src={post.imageUrl} alt="" />
+                  <Image className="h-48 w-full object-cover" src={post.imageUrl}   width={1200}
+          height={800}alt="" />
                 </div>
                 <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                   <div className="flex-1">
                     <p className="text-sm font-abc font-medium text-brown">
-                      <a href={post.category.href} className="hover:underline">
+                      <Link href={post.category.href} className="hover:underline">
                         {post.category.name}
-                      </a>
+                      </Link>
                     </p>
                     <a href={post.href} className="block mt-2">
                       <p className="text-xl font-semibold font-abc text-gray-900">{post.title}</p>
