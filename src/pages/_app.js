@@ -1,5 +1,4 @@
 import "@/styles/globals.css";
-import About from "./about";
 import Nav from "@/components/Navbar";
 import Head from "next/head";
 import Footer from "@/components/Footer";

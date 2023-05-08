@@ -16,7 +16,7 @@ const About2 = () => {
       </div>
       <div className="w-full md:w-3/4 lg:w-2/2">
         <h2 className="text-3xl md:text-4xl font-abc px-30 font-bold mb-4 mx-auto px-15 text-gray-800">
-          Hi im Mariam
+          Hi I'm Mariam
         </h2>
         <p className="text-lg font-abc tracking-wide text-gray-700 mb-6">
         5 years ago, if you had told me that I would one day be deeply in love with the service of photographing weddings, I would not have believed it. So how exactly did I get here?
