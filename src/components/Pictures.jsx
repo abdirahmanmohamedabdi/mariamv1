@@ -55,7 +55,7 @@ const slides = [
   {
     id: 9,
     imageUrl:
-      " https://res.cloudinary.com/dyijvml1y/image/upload/v1682953741/mariam/blog/jay/Jay___Sachi-8_txkhav.jpg ",
+      " https://res.cloudinary.com/dyijvml1y/image/upload/v1682954123/mariam/blog/Pritisha/Pritisha___Ram-5_x6g1sr.jpg",
    
   },
   {
@@ -106,7 +106,7 @@ const Pictures = () => {
         >
           <div className="absolute inset-0 mb-5">
             <Image
-            loading="lazy"	
+         
               src={slide.imageUrl}
               alt=""
               quality={80}

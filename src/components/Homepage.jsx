@@ -48,7 +48,7 @@ const slides = [
     id: 6,
     imageUrl:
       "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Nael___Lamyae-1_spmp1i.jpg",
-    heading: "YOUR MEMORIES FOREVER PRESERVED.",
+    heading: "YOUR MEMORIES FOREVER PRESERVED",
     description:
       "Praesent interdum eros euismod enim vehicula fringilla. Nulla ullamcorper orci at lacus fermentum tempor.",
   },
@@ -92,7 +92,7 @@ const HeroSlider = () => {
   const slide = slides[currentSlide];
 
   return (
-    <div className="relative  h-screen">
+    <div className="relative  h-screen mb-40">
       {slides.map((slide, index) => (
         <Transition
           key={slide.id}
@@ -104,13 +104,13 @@ const HeroSlider = () => {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <div className="absolute inset-0 mb-2">
+          <div className="absolute inset-0 ">
             <Image
      
               src={slide.imageUrl}
               alt=""
-              
-              layout="fill"
+              width={1480} height={1420}
+          
               objectFit="cover"
             />
           </div>
