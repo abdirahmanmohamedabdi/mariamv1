@@ -21,7 +21,9 @@ const About2 = () => {
         <p className="text-lg font-abc tracking-wide text-gray-700 mb-6">
         5 years ago, if you had told me that I would one day be deeply in love with the service of photographing weddings, I would not have believed it. So how exactly did I get here?
 Well, it all started with a friend of mine who was getting married about 6 years ago.
-
+<h2 className="text-3xl md:text-4xl font-abc px-20 mt-7  font-bold mb-1 text-center mx-auto px-15 text-black">
+          She was exactly in your shoes!
+        </h2>
         </p>
         <p className="text-lg  font-abc tracking-wide text-gray-700 mb-6">
           As her Wedding Day drew closer, she found herself finalizing payments for the different vendors, running to final dress fittings, finishing the many other little things that have to be done before the Wedding Day but still struggling to find that right photographer for her day.
@@ -30,9 +32,11 @@ She was looking for a photographer who would capture the heart of the significan
         <p className="text-lg font-abc text-gray-700  tracking-wide mb-6">
         Without her knowledge, on her Wedding Day, I grabbed one of my cameras and took it along with me to grab a few photos of my own…just for memories sake. When I shared my photos of the day with her, she was stunned.
 And that set me on this beautiful journey of preserving wedding memories.
+</p>
 
+<p className="text-lg font-abc text-gray-700  tracking-wide mb-6">
 It took me a couple of years after that wedding but eventually, Mariam Photography was born out of the desire to serve you on one of the most memorable days of your life.
-I want to give you peace of mind and confidence in knowing that you have chosen a wedding photographer who is incredibly passionate about capturing the memories of your Wedding Day in the most CANDID, VIBRANT AND REAL way.
+I want to give you peace of mind and confidence in knowing that you have chosen a wedding photographer who is incredibly passionate about capturing the memories of your Wedding Day in the most <span className='font-bold'>CANDID </span>,  <span className='font-bold'>VIBRANT </span>AND <span className='font-bold'>REAL </span>way.
 My goal is for you to look back at the memories of that day many years later -maybe with your children and grandchildren- and remember the feelings you had on Your Wedding Day.
         </p>
       </div>

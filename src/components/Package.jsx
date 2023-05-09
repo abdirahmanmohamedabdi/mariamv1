@@ -7,7 +7,8 @@ const Package = () => {
     <div className="container mx-auto px-1 sm:px-6 lg:px-2 py-16">
     <div className="max-w-2xl mx-auto mb-12">
       <h1 className="text-4xl text-center font-abc font-bold mx-21 mb-2 mt-16">PACKAGES</h1>
-      <p className="text-lg font-abc mb-8">After all the makeup, dancing, eating and laughter, your memories and photographs are all that will remain. Every single image is individually edited to the highest resolution and available for you to enjoy however you’d like. Have your memories up as screensavers on all your devices AND decorate your spaces with beautiful sentimental wall art. Each couple I work with receives a custom designed Wedding Album capturing the story of some of their favorite moments of the day. What a wonderful way to cherish & enjoy your wedding memories!</p>
+      <p className="text-lg font-abc font-bold	 mb-8">After all the makeup, dancing, eating and laughter, your memories and photographs are all that will remain.</p>
+      <p className="text-lg font-abc mb-8">Every single image is individually edited to the highest resolution and available for you to enjoy however you’d like. Have your memories up as screensavers on all your devices AND decorate your spaces with beautiful sentimental wall art. Each couple I work with receives a custom designed Wedding Album capturing the story of some of their favorite moments of the day. What a wonderful way to cherish & enjoy your wedding memories!.</p>
       <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-12">
         <div className="w-full sm:w-1/2">
           <div className="relative h-96 rounded-lg overflow-hidden">
@@ -27,6 +28,7 @@ const Package = () => {
     </div>
     <div className="max-w-2xl mx-auto">
       <p className="text-lg font-abc mb-8">To deliver my best as your wedding photographer, it is essential to establish contact with you. I want to hear all about your plans for the day, understand your wants for the memories and answer any questions you have. So, for each inquiry received I always schedule a video call where we chat and get to know each other a bit before confirming a booking. Once you feel that we are a good fit to work together on your special day, we’ll move forward with securing your date. With the date secured, the fun work to prep for your day begins. I’m so excited to hear from you soon!</p>
+      
     </div>
   </div>
   );

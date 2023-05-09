@@ -52,12 +52,7 @@ const slides = [
       "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953552/mariam/blog/kulsoom/Kulsoom___Aarif-3_dnj8a3.jpg",
    
   },
-  {
-    id: 9,
-    imageUrl:
-      " https://res.cloudinary.com/dyijvml1y/image/upload/v1682954123/mariam/blog/Pritisha/Pritisha___Ram-5_x6g1sr.jpg",
-   
-  },
+
   {
     id: 10,
     imageUrl:
