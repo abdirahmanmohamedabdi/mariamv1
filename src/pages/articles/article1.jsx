@@ -3,8 +3,8 @@ import Image from "next/image"
 
 export default function article1() {
   return (
-    <div className="container mx-auto pt-7">
-    <div className="max-w-6xl mx-auto  mb-17 sm:px-6 sm:px-12">
+    <div className="container mx-auto ">
+    <div className="max-w-full px-4">
       <h1 className="text-2xl font-bold pt-24 font-abc text-center ">
       PREPARING FOR YOUR ENGAGEMENT SESSION
 
@@ -23,19 +23,23 @@ It's important to give yourself enough time for your engagement photo session so
 
       </p>
       <div className="grid grid-cols-2 gap-4 mb-8">
-        <div className="relative h-96">
+        <div className="relative h-auto">
           <Image
             src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953601/mariam/blog/annabelle/Annobelle___Jamie-13_m5kka8.jpg"
             layout="fill"
             objectFit="cover"
+            className="w-full h-full object-fit-cover object-center"
+
             alt="Engagement photo 1"
           />
         </div>
-        <div className="relative h-96">
+        <div className="relative h-auto">
           <Image
             src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953741/mariam/blog/jay/Jay___Sachi-8_txkhav.jpg"
             layout="fill"
             objectFit="cover"
+            className="w-full h-full object-fit-cover object-center"
+
             alt="Engagement photo 1"
           />
         </div>
@@ -44,6 +48,8 @@ It's important to give yourself enough time for your engagement photo session so
             src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953550/mariam/blog/kulsoom/Kulsoom___Aarif-16_hakzra.jpg"
             layout="fill"
             objectFit="cover"
+            className="w-full h-full object-fit-cover object-center"
+
             alt="Engagement photo 1"
           />
         </div>
@@ -52,6 +58,8 @@ It's important to give yourself enough time for your engagement photo session so
             src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954041/mariam/blog/Nael/Nael___Lamyae-4_zdkcvu.jpg"
             layout="fill"
             objectFit="cover"
+            className="w-full h-full object-fit-cover object-center"
+
             alt="Engagement photo 1"
           />
         </div>
@@ -95,6 +103,8 @@ It's important to give yourself enough time for your engagement photo session so
             src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953602/mariam/blog/annabelle/Annobelle___Jamie-15_nt8dy6.jpg"
             layout="fill"
             objectFit="cover"
+            className="w-full h-full object-fit-cover object-center"
+
             alt="Engagement photo 1"
           />
         </div>
@@ -103,6 +113,8 @@ It's important to give yourself enough time for your engagement photo session so
             src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953602/mariam/blog/annabelle/Annobelle___Jamie-12_dp1orn.jpg"
             layout="fill"
             objectFit="cover"
+            className="w-full h-full object-fit-cover object-center"
+
             alt="Engagement photo 1"
           />
         </div>
@@ -111,6 +123,8 @@ It's important to give yourself enough time for your engagement photo session so
             src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953600/mariam/blog/annabelle/Annobelle___Jamie-4_ybuja5.jpg"
             layout="fill"
             objectFit="cover"
+            className="w-full h-full object-fit-cover object-center"
+
             alt="Engagement photo 1"
           />
         </div>
@@ -119,6 +133,8 @@ It's important to give yourself enough time for your engagement photo session so
             src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953598/mariam/blog/annabelle/Annobelle___Jamie-5_rxmvyu.jpg"
             layout="fill"
             objectFit="cover"
+            className="w-full h-full object-fit-cover object-center"
+
             alt="Engagement photo 1"
           />
         </div>

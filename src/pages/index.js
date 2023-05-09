@@ -15,9 +15,14 @@ export default function Home() {
 <div className="">
 <Head>
    
+<title>Home - Mariam Photography</title>
+	<link rel="canonical" href="https://mariamphotography.co.uk/" />
 <link rel="shortcut icon" href="/favicon.ico" />
-      <meta name="title" content="Mariam: Photography by a UK-based Photographer"/>
-<meta name="description" content="My name is Mariam i am a photographer based in the UK, with a passion for capturing beautiful moments around the world. Specializing in engagements, proposals, and weddings,"/>
+   <meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Home - Mariam Photography" />
+	<meta property="og:url" content="https://mariamphotography.co.uk/" />
+	<meta property="og:site_name" content="Mariam Photorgraphy" />
     </Head>
 
 

@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function article4() {
   return (
-    <div className="container mx-auto pt-12">
-      <div className="max-w-6xl mx-auto  mb-17 sm:px-6 sm:px-12">
+    <div className="container mx-auto">
+    <div className="max-w-full px-4">
         <h1 className="text-2xl font-bold pt-24 font-abc text-center ">
           DON’T REGRET YOUR WEDDING PHOTOS
         </h1>
@@ -168,52 +168,7 @@ Choose a photographer who is experienced, communicates well, and understands you
 
       
 
-        {/* <div className="grid grid-cols-2 gap-4 mb-8">
-          <img
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683274299/mariam/blog/joanna/Joanna___Nanfa-38_e8h7hh.jpg"
-            alt="Couple 1"
-            className="w-1/2 md:w-1/3 lg:w-1/4 h-64 object-cover rounded-lg shadow-lg mr-4 mb-4"
-          />
-          <img
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953939/mariam/blog/sobia/Sobia___Tawfiq-4_y6hrhn.jpg"
-            alt="Couple 2"
-            className="w-1/2 md:w-1/3 lg:w-1/4 h-64 object-cover rounded-lg shadow-lg mr-4 mb-4"
-          />
-          <img
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953939/mariam/blog/sobia/Sobia___Tawfiq-7_z3yyqk.jpg"
-            alt="Couple 3"
-            className="w-1/2 md:w-1/3 lg:w-1/4 h-64 object-cover rounded-lg shadow-lg mr-4 mb-4"
-          />
-          <img
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683274299/mariam/blog/joanna/Joanna___Nanfa-36_eh2sdt.jpg"
-            alt="Couple 4"
-            className="w-1/2 md:w-1/3 lg:w-1/4 h-64 object-cover rounded-lg shadow-lg mr-4 mb-4"
-          />
-        </div> */}
-        
-        {/* <div className="grid grid-cols-2 gap-4 mb-8">
-          <img
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953934/mariam/blog/sobia/Sobia___Tawfiq-8_jokdty.jpg"
-            alt="Couple 1"
-            className="w-1/2 md:w-1/3 lg:w-1/4 h-64 object-cover rounded-lg shadow-lg mr-4 mb-4"
-          />
-          <img
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953890/mariam/blog/N_j/N___J-29_gi3z4z.jpg"
-            alt="Couple 2"
-            className="w-1/2 md:w-1/3 lg:w-1/4 h-64 object-cover rounded-lg shadow-lg mr-4 mb-4"
-          />
-          <img
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953667/mariam/blog/hazel/Hazel___Etse-8_dmeajf.jpg"
-            alt="Couple 3"
-            className="w-1/2 md:w-1/3 lg:w-1/4 h-64 object-cover rounded-lg shadow-lg mr-4 mb-4"
-          />
-          <img
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953664/mariam/blog/hazel/Hazel___Etse-5_ygphyr.jpg"
-            alt="Couple 4"
-            className="w-1/2 md:w-1/3 lg:w-1/4 h-64 object-cover rounded-lg shadow-lg mr-4 mb-4"
-          />
-        
-        </div> */}
+       
       </div>
  
   );

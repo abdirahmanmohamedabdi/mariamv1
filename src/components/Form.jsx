@@ -83,7 +83,7 @@ export default function Form() {
             </p>
             <form action="https://api.web3forms.com/submit" method="POST" className="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
             <input type="hidden" name="access_key" value="a797b459-99ed-4004-b2ce-48f1814c8aa6"/>
-            <input type="hidden" name="redirect" value="http://localhost:3000"></input>
+            <input type="hidden" name="redirect" value="http://mariamphotography.co.uk/success"></input>
 
               <div>
                 <label htmlFor="first-name" className="block text-sm font-medium font-abc  text-gray-700">

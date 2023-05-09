@@ -38,8 +38,14 @@ export default function jayandsaachi() {
           <p className="text-lg  font-abc text-gray-700 mb-6">
             Jay and Saachi had been dating for a few years, and Jay knew that he
             wanted to spend the rest of his life with her. Because Jay lives
-            outside England, he recruited the help of Lisa of<span className="text-brown font-bold "><Link href="https://llproposals.com/" target="_blank">  L&LProposals</Link></span>  to
-            help pull it off. Lisa knew that Hampstead Pergola with its
+            outside England, he recruited the help of Lisa of
+            <span className="text-brown font-bold ">
+              <Link href="https://llproposals.com/" target="_blank">
+                {" "}
+                L&LProposals
+              </Link>
+            </span>{" "}
+            to help pull it off. Lisa knew that Hampstead Pergola with its
             beautiful gardens & architecture was the perfect spot to pop the
             question. On the day of the proposal, Jay convinced Saachi to go on
             a date that included a stroll through the beautiful gardens at

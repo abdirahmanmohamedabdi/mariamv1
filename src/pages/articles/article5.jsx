@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function article5() {
   return (
-    <div className="container mx-auto pt-7">
-      <div className="max-w-6xl mx-auto  mb-17 sm:px-6 sm:px-12">
+    <div className="container mx-auto">
+    <div className="max-w-full px-4">
         <h1 className="text-2xl font-bold pt-24 font-abc text-center ">
           REMEMBER THIS WHEN BOOKING A WEDDING PHOTOGRAPHER
         </h1>
