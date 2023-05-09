@@ -7,7 +7,7 @@ const slides = [
   {
     id: 1,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953884/mariam/blog/N_j/N___J-28_ulrtoi.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Joanna___Nanfa-41_zbegtm.jpg",
     
   },
   {
@@ -19,19 +19,19 @@ const slides = [
   {
     id: 3,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953874/mariam/blog/N_j/N___J-19_lxk2ic.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524532/mariam/Portfolio-6_kenzqf.jpg",
     
   },
   {
     id: 4,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524533/mariam/Portfolio-48_swo69m.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953664/mariam/blog/hazel/Hazel___Etse-5_ygphyr.jpg",
    
   },
   {
     id: 5,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Joanna___Nanfa-27_fiwb2e.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524534/mariam/Pritisha___Ram-11_bzz5we.jpg",
     
   },
   {
@@ -43,19 +43,19 @@ const slides = [
   {
     id: 7,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953601/mariam/blog/annabelle/Annobelle___Jamie-13_m5kka8.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Annobelle___Jamie-7_cld9hu.jpg",
    
   },
   {
     id: 8,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953552/mariam/blog/kulsoom/Kulsoom___Aarif-14_wmlv9d.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953552/mariam/blog/kulsoom/Kulsoom___Aarif-3_dnj8a3.jpg",
    
   },
   {
     id: 9,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953599/mariam/blog/annabelle/Annobelle___Jamie-6_mczu4e.jpg",
+      " https://res.cloudinary.com/dyijvml1y/image/upload/v1682953741/mariam/blog/jay/Jay___Sachi-8_txkhav.jpg ",
    
   },
   {
@@ -67,13 +67,13 @@ const slides = [
   {
     id: 11,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953549/mariam/blog/kulsoom/Kulsoom___Aarif-7_a7cc0z.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524532/mariam/Kulsoom___Aarif-36_ghfrlo.jpg",
    
   },
   {
     id: 12,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682954045/mariam/blog/Nael/Nael___Lamyae-10_jcqrff.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683536683/mariam/blog/joanna/Joanna___Nanfa-69_r7qg0k.jpg",
    
   },
 ];
@@ -92,7 +92,7 @@ const Pictures = () => {
   const slide = slides[currentSlide];
 
   return (
-    <div className="relative  h-screen">
+    <div className="relative w-fill h-screen mb-30 mt-4">
       {slides.map((slide, index) => (
         <Transition
           key={slide.id}
@@ -106,8 +106,10 @@ const Pictures = () => {
         >
           <div className="absolute inset-0 mb-5">
             <Image
+            loading="lazy"	
               src={slide.imageUrl}
               alt=""
+              quality={80}
               layout="fill"
               objectFit="cover"
             />

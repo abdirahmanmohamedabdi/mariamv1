@@ -17,7 +17,7 @@ export default function Home() {
    
 <title>Home - Mariam Photography</title>
 	<link rel="canonical" href="https://mariamphotography.co.uk/" />
-<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="shortcut icon" href="favicon/favicon2.png" />
    <meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Home - Mariam Photography" />

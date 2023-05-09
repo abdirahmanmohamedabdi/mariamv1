@@ -79,7 +79,7 @@ export default function Form() {
             <h2 className="text-3xl font-extrabold font-abc  tracking-tight sm:text-4xl">{`Let's work together`}</h2>
             <p className="mt-4 text-lg font-abc  text-gray-500 sm:mt-3">
               We’d love to hear from you! Send us a message using the form opposite, or email us. We’d love to hear from
-              you! Send us a message using the form opposite, or email us.
+              you! Send us a message using the form below, or email us.
             </p>
             <form action="https://api.web3forms.com/submit" method="POST" className="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
             <input type="hidden" name="access_key" value="a797b459-99ed-4004-b2ce-48f1814c8aa6"/>

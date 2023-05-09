@@ -16,18 +16,18 @@ export default function Blog() {
 	<meta property="og:url" content="https://mariamphotography.co.uk/blog/" />
 	<meta property="og:site_name" content="Mariam Photography" />
 </Head>
-      <section class="text-gray-600 body-font mt-5 bg-grey-100 overflow-hidden">
-        <div class="container px-5 py-24 mt-16 mx-auto">
-          <div class="lg:w-3/5 mx-auto flex flex-wrap">
+      <section className="text-gray-600 body-font mt-5 bg-grey-100 overflow-hidden">
+        <div className="container px-5 py-24 mt-16 mx-auto">
+          <div className="lg:w-3/5 mx-auto flex flex-wrap">
             <Image
               width="1000"
               height="4000"
               alt="ecommerce"
-              class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+              className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
               src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953602/mariam/blog/annabelle/Annobelle___Jamie-15_nt8dy6.jpg"
             />
-            <div class="lg:w-1/2 w-full lg:pl-10 lg:py-2 mt-6 lg:mt-0">
-              <Link class="text-sm title-font text-brown font-abc tracking-widest"  href="/blog/engagements">
+            <div className="lg:w-1/2 w-full lg:pl-10 lg:py-2 mt-6 lg:mt-0">
+              <Link className="text-sm title-font text-brown font-abc tracking-widest"  href="/blog/engagements">
               Engagement
               </Link>
               <h1 class="text-gray-900 text-3xl font-abc title-font font-medium mb-2">
