@@ -19,7 +19,7 @@ const slides = [
   {
     id: 3,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683644422/mariam/Portfolio-48_s.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953739/mariam/blog/jay/Jay___Sachi-6_oc5y8v.jpg",
     heading: "CANDID + GENUINE",
   },
   {
