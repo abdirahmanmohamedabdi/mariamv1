@@ -9,72 +9,54 @@ const slides = [
     imageUrl:
       "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524533/mariam/Sobia___Tawfiq-41_yhxfbt.jpg",
     heading: "THIS IS YOUR LOVE STORY",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor tincidunt urna vitae convallis.",
   },
   {
     id: 2,
     imageUrl:
       "https://res.cloudinary.com/dyijvml1y/image/upload/v1682954041/mariam/blog/Nael/Nael___Lamyae-4_zdkcvu.jpg",
     heading: "TIMELESS",
-    description:
-      "Vivamus tincidunt nibh sed felis convallis, in congue felis consequat. Etiam euismod lacus a nisl ultricies.",
   },
   {
     id: 3,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683644731/mariam/portfoliotester.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683644422/mariam/Portfolio-48_s.jpg",
     heading: "CANDID + GENUINE",
-    description:
-      "Praesent interdum eros euismod enim vehicula fringilla. Nulla ullamcorper orci at lacus fermentum tempor.",
   },
   {
     id: 4,
     imageUrl:
       "https://res.cloudinary.com/dyijvml1y/image/upload/v1683644249/mariam/sPortfolio-27_uvn08a_76b496wewe.jpg",
     heading: "THIS IS YOUR LOVE STORY ",
-    description:
-      "Praesent interdum eros euismod enim vehicula fringilla. Nulla ullamcorper orci at lacus fermentum tempor.",
   },
   {
     id: 5,
     imageUrl:
       "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Joanna___Nanfa-27_fiwb2e.jpg",
     heading: "PHOTOGRAPHY YOU CAN FEEL",
-    description:
-      "Praesent interdum eros euismod enim vehicula fringilla. Nulla ullamcorper orci at lacus fermentum tempor.",
   },
   {
     id: 6,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Nael___Lamyae-1_spmp1i.jpg",
-    heading: "YOUR MEMORIES FOREVER PRESERVED.",
-    description:
-      "Praesent interdum eros euismod enim vehicula fringilla. Nulla ullamcorper orci at lacus fermentum tempor.",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683538033/mariam/blog/sobia/Sobia___Tawfiq-36_tmkepn.jpg",
+    heading: "YOUR MEMORIES FOREVER PRESERVED",
   },
   {
     id: 7,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524532/mariam/Kulsoom___Aarif-92_dmf0ad.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953601/mariam/blog/annabelle/Annobelle___Jamie-13_m5kka8.jpg",
     heading: "CANDID + GENUINE ",
-    description:
-      "Praesent interdum eros euismod enim vehicula fringilla. Nulla ullamcorper orci at lacus fermentum tempor.",
   },
   {
     id: 8,
     imageUrl:
       "https://res.cloudinary.com/dyijvml1y/image/upload/v1683536685/mariam/blog/joanna/Joanna___Nanfa-38_qwfacc.jpg",
     heading: "YOUR MEMORIES FOREVER PRESERVED",
-    description:
-      "Praesent interdum eros euismod enim vehicula fringilla. Nulla ullamcorper orci at lacus fermentum tempor.",
   },
   {
     id: 9,
     imageUrl:
       "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953873/mariam/blog/N_j/N___J-22_owafpi.jpg",
     heading: "CANDID + GENUINE",
-    description:
-      "Praesent interdum eros euismod enim vehicula fringilla. Nulla ullamcorper orci at lacus fermentum tempor.",
   },
 ];
 
@@ -101,15 +83,13 @@ const HeroSlider = () => {
           enterFrom="opacity-0"
           enterTo="opacity-100"
           leave="transition-opacity duration-1000"
-          leaveFrom="opacity-100"
+          leaveFrom="opacity-0"
           leaveTo="opacity-0"
         >
-          <div className="absolute inset-0 mb-2">
+          <div className="absolute inset-0 mb-5">
             <Image
-     
               src={slide.imageUrl}
               alt=""
-              
               layout="fill"
               objectFit="cover"
             />

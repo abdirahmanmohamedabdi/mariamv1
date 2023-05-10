@@ -13,7 +13,7 @@ const slides = [
   {
     id: 2,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Nael___Lamyae-1_spmp1i.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683536686/mariam/blog/joanna/Joanna___Nanfa-40_rtdtw7.jpg",
    
   },
   {
@@ -37,7 +37,7 @@ const slides = [
   {
     id: 6,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Nael___Lamyae-1_spmp1i.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683721998/mariam/blog/hazel/Hazel___Etse-36_wqskl6.jpg",
    
   },
   {
@@ -96,7 +96,7 @@ const Pictures = () => {
           enterFrom="opacity-0"
           enterTo="opacity-100"
           leave="transition-opacity duration-1000"
-          leaveFrom="opacity-100"
+          leaveFrom="opacity-0"
           leaveTo="opacity-0"
         >
           <div className="absolute inset-0 mb-5">

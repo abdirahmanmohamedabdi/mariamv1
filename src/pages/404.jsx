@@ -24,13 +24,13 @@ export default function Example() {
             <h1 className="mt-2 text-4xl font-abc font-extrabold text-white tracking-tight sm:text-5xl">
               Uh oh! I think you’re lost.
             </h1>
-            <p className="mt-2 text-lg font-medium text-white ">
+            <p className="mt-2 text-lg font-abc font-medium text-white ">
               It looks like the page you’re looking for doesn't exist.
             </p>
             <div className="mt-6">
               <Link
                 href="/"
-                className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-black text-opacity-75 bg-white   "
+                className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md font-abc text-black text-opacity-75 bg-white   "
               >
                 Go back home
               </Link>
