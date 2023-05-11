@@ -6,7 +6,7 @@ export default function nandj() {
     <div className="flex flex-col items-center justify-center py-16 md:py-32">
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953884/mariam/blog/N_j/N___J-28_ulrtoi.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724657/mariam/blog/N_j/N___J-1_vns3ms.jpg"
           alt="About photo"
           width={500}
           height={500}
@@ -38,7 +38,7 @@ The photographs from the ceremony captured the elegance and intimacy of the even
       </div>
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953874/mariam/blog/N_j/N___J-19_lxk2ic.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724657/mariam/blog/N_j/N___J-2_u0tmau.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -49,7 +49,7 @@ The photographs from the ceremony captured the elegance and intimacy of the even
 
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953873/mariam/blog/N_j/N___J-22_owafpi.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724657/mariam/blog/N_j/N___J-3_mqsia8.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -60,7 +60,7 @@ The photographs from the ceremony captured the elegance and intimacy of the even
 
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953867/mariam/blog/N_j/N___J-17_rzbdm2.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724670/mariam/blog/N_j/N___J-4_yb8jnp.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -70,7 +70,7 @@ The photographs from the ceremony captured the elegance and intimacy of the even
       </div>
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953880/mariam/blog/N_j/N___J-23_hqpsiq.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724663/mariam/blog/N_j/N___J-5_oxrtr9.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -80,7 +80,7 @@ The photographs from the ceremony captured the elegance and intimacy of the even
       </div>
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953883/mariam/blog/N_j/N___J-27_vsnl4l.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724662/mariam/blog/N_j/N___J-6_a5pva3.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -90,7 +90,7 @@ The photographs from the ceremony captured the elegance and intimacy of the even
       </div>
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953878/mariam/blog/N_j/N___J-26_fbzguy.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724658/mariam/blog/N_j/N___J-7_qedevz.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -98,6 +98,131 @@ The photographs from the ceremony captured the elegance and intimacy of the even
           className="rounded-md"
         />
       </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724658/mariam/blog/N_j/N___J-8_qt6dlk.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724659/mariam/blog/N_j/N___J-9_qzuysa.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724659/mariam/blog/N_j/N___J-10_owuztt.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724660/mariam/blog/N_j/N___J-11_ojwqml.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724660/mariam/blog/N_j/N___J-12_tooc2h.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724662/mariam/blog/N_j/N___J-13_jopw6b.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724661/mariam/blog/N_j/N___J-14_fouqme.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953874/mariam/blog/N_j/N___J-15_ral47v.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724664/mariam/blog/N_j/N___J-16_jenyq3.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724665/mariam/blog/N_j/N___J-17_cyy3ob.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
       <div className="mb-20">
         <Image
           src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953867/mariam/blog/N_j/N___J-18_rou2sz.jpg"
@@ -109,6 +234,72 @@ The photographs from the ceremony captured the elegance and intimacy of the even
         />
       </div>
 
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724665/mariam/blog/N_j/N___J-19_lt11kd.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724665/mariam/blog/N_j/N___J-20_yul1zc.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724665/mariam/blog/N_j/N___J-21_dcjoor.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724665/mariam/blog/N_j/N___J-22_opvssp.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724666/mariam/blog/N_j/N___J-23_fuyqpm.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      
     </div>
   </div>
   )

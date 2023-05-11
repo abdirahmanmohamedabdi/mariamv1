@@ -6,7 +6,7 @@ export default function naelandlmayae() {
     <div className="flex flex-col items-center justify-center py-16 md:py-32">
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954046/mariam/blog/Nael/Nael___Lamyae-11_fe8rd5.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724695/mariam/blog/Nael/Nael___Lamyae-1_n1swml.jpg"
           alt="About photo"
           width={800}
           height={800}
@@ -39,7 +39,7 @@ As the couple celebrated their love, they reflected on their journey together an
       </div>
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954045/mariam/blog/Nael/Nael___Lamyae-12_ffgqez.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954041/mariam/blog/Nael/Nael___Lamyae-2_btc7p6.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -48,40 +48,40 @@ As the couple celebrated their love, they reflected on their journey together an
         />
       </div>
 
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954045/mariam/blog/Nael/Nael___Lamyae-14_hkc6mk.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954044/mariam/blog/Nael/Nael___Lamyae-6_jaxla4.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954043/mariam/blog/Nael/Nael___Lamyae-9_pgrkdz.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
       <div className="mb-20">
         <Image
           src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954042/mariam/blog/Nael/Nael___Lamyae-3_bl35eh.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954041/mariam/blog/Nael/Nael___Lamyae-4_zdkcvu.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954041/mariam/blog/Nael/Nael___Lamyae-5_ntchha.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954044/mariam/blog/Nael/Nael___Lamyae-6_jaxla4.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -99,6 +99,8 @@ As the couple celebrated their love, they reflected on their journey together an
           className="rounded-md"
         />
       </div>
+      
+
       <div className="mb-20">
         <Image
           src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954042/mariam/blog/Nael/Nael___Lamyae-8_zda2wh.jpg"
@@ -110,6 +112,191 @@ As the couple celebrated their love, they reflected on their journey together an
         />
       </div>
 
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954043/mariam/blog/Nael/Nael___Lamyae-9_pgrkdz.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954045/mariam/blog/Nael/Nael___Lamyae-10_jcqrff.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954046/mariam/blog/Nael/Nael___Lamyae-11_fe8rd5.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954045/mariam/blog/Nael/Nael___Lamyae-12_ffgqez.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954046/mariam/blog/Nael/Nael___Lamyae-13_ntbclf.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954045/mariam/blog/Nael/Nael___Lamyae-14_hkc6mk.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954048/mariam/blog/Nael/Nael___Lamyae-15_uykasn.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954046/mariam/blog/Nael/Nael___Lamyae-16_wbs5xl.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724702/mariam/blog/Nael/Nael___Lamyae-17_qvagux.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724703/mariam/blog/Nael/Nael___Lamyae-18_efdls6.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724705/mariam/blog/Nael/Nael___Lamyae-19_svnqzv.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724702/mariam/blog/Nael/Nael___Lamyae-20_wmrvzp.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683764032/mariam/blog/Nael/Nael___Lamyae-21_kx6rct.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683764035/mariam/blog/Nael/Nael___Lamyae-22_lljei7.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683764039/mariam/blog/Nael/Nael___Lamyae-23_ohtnnl.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
     </div>
   </div>
   )

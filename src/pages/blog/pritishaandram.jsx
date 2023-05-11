@@ -6,7 +6,7 @@ export default function pritishaandram() {
     <div className="flex flex-col items-center justify-center py-16 md:py-32">
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954127/mariam/blog/Pritisha/Pritisha___Ram-12_fuonh6.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683753891/mariam/blog/Pritisha/Botanical_Gardens-1_mysu3k.jpg"
           alt="About photo"
           width={800}
           height={800}
@@ -39,7 +39,7 @@ The Birmingham Botanical Garden provided a beautiful and natural backdrop for th
       </div>
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954127/mariam/blog/Pritisha/Pritisha___Ram-10_r1a8cf.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683753894/mariam/blog/Pritisha/Botanical_Gardens-2_uln5vc.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -61,27 +61,38 @@ The Birmingham Botanical Garden provided a beautiful and natural backdrop for th
 
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954126/mariam/blog/Pritisha/Pritisha___Ram-9_gmnkrj.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954125/mariam/blog/Pritisha/Pritisha___Ram-4_ucnlzv.jpg"
           alt="About photo"
           width={1200}
           height={800}
           layout="fit"
           className="rounded-md"
         />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724738/mariam/blog/Pritisha/Pritisha___Ram-5_uipxn8.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954124/mariam/blog/Pritisha/Pritisha___Ram-6_t7fit3.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+        
       </div>
       <div className="mb-20">
         <Image
           src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954125/mariam/blog/Pritisha/Pritisha___Ram-7_yfdnkt.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954125/mariam/blog/Pritisha/Pritisha___Ram-4_ucnlzv.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -99,9 +110,10 @@ The Birmingham Botanical Garden provided a beautiful and natural backdrop for th
           className="rounded-md"
         />
       </div>
+
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954124/mariam/blog/Pritisha/Pritisha___Ram-6_t7fit3.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954126/mariam/blog/Pritisha/Pritisha___Ram-9_gmnkrj.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -110,6 +122,91 @@ The Birmingham Botanical Garden provided a beautiful and natural backdrop for th
         />
       </div>
 
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954127/mariam/blog/Pritisha/Pritisha___Ram-10_r1a8cf.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954129/mariam/blog/Pritisha/Pritisha___Ram-11_eit021.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682954127/mariam/blog/Pritisha/Pritisha___Ram-12_fuonh6.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724742/mariam/blog/Pritisha/Pritisha___Ram-13_ryvu3y.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724747/mariam/blog/Pritisha/Pritisha___Ram-14_f8wmky.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683763052/mariam/blog/Pritisha/Pritisha___Ram-15_nnogkp.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+    
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683763052/mariam/blog/Pritisha/Pritisha___Ram-16_wxgozr.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
     </div>
   </div>
   )

@@ -7,7 +7,7 @@ export default function jayandsaachi() {
       <div className="flex flex-col items-center justify-center py-16 md:py-32">
         <div className="mb-20">
           <Image
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953749/mariam/blog/jay/Jay___Sachi-20_dsnktc.jpg"
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953742/mariam/blog/jay/Jay___Sachi-1_lzzywv.jpg"
             alt="About photo"
             width={300}
             height={900}
@@ -75,28 +75,6 @@ export default function jayandsaachi() {
         </div>
         <div className="mb-20">
           <Image
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953747/mariam/blog/jay/Jay___Sachi-18_tbmcko.jpg"
-            alt="About photo"
-            width={1200}
-            height={800}
-            layout="fit"
-            className="rounded-md"
-          />
-        </div>
-
-        <div className="mb-20">
-          <Image
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953746/mariam/blog/jay/Jay___Sachi-17_ayix68.jpg"
-            alt="About photo"
-            width={1200}
-            height={800}
-            layout="fit"
-            className="rounded-md"
-          />
-        </div>
-
-        <div className="mb-20">
-          <Image
             src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953746/mariam/blog/jay/Jay___Sachi-2_kdsk4d.jpg"
             alt="About photo"
             width={1200}
@@ -105,9 +83,10 @@ export default function jayandsaachi() {
             className="rounded-md"
           />
         </div>
+
         <div className="mb-20">
           <Image
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953744/mariam/blog/jay/Jay___Sachi-15_mjvkz8.jpg"
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953741/mariam/blog/jay/Jay___Sachi-3_a0sqrx.jpg"
             alt="About photo"
             width={1200}
             height={800}
@@ -115,19 +94,10 @@ export default function jayandsaachi() {
             className="rounded-md"
           />
         </div>
+
         <div className="mb-20">
           <Image
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953743/mariam/blog/jay/Jay___Sachi-12_zplrai.jpg"
-            alt="About photo"
-            width={1200}
-            height={800}
-            layout="fit"
-            className="rounded-md"
-          />
-        </div>
-        <div className="mb-20">
-          <Image
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953742/mariam/blog/jay/Jay___Sachi-9_oldf4d.jpg"
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953738/mariam/blog/jay/Jay___Sachi-4_xus9ku.jpg"
             alt="About photo"
             width={1200}
             height={800}
@@ -145,7 +115,196 @@ export default function jayandsaachi() {
             className="rounded-md"
           />
         </div>
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953739/mariam/blog/jay/Jay___Sachi-6_oc5y8v.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953739/mariam/blog/jay/Jay___Sachi-7_zmcaet.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953741/mariam/blog/jay/Jay___Sachi-8_txkhav.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953742/mariam/blog/jay/Jay___Sachi-9_oldf4d.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953743/mariam/blog/jay/Jay___Sachi-10_wz1pmu.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953743/mariam/blog/jay/Jay___Sachi-11_vucanm.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953743/mariam/blog/jay/Jay___Sachi-12_zplrai.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953745/mariam/blog/jay/Jay___Sachi-13_knfsvj.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953744/mariam/blog/jay/Jay___Sachi-14_phhedp.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953744/mariam/blog/jay/Jay___Sachi-15_mjvkz8.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953745/mariam/blog/jay/Jay___Sachi-16_y6oxey.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953746/mariam/blog/jay/Jay___Sachi-17_ayix68.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953747/mariam/blog/jay/Jay___Sachi-18_tbmcko.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953746/mariam/blog/jay/Jay___Sachi-19_udjshz.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953749/mariam/blog/jay/Jay___Sachi-20_dsnktc.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
       </div>
     </div>
+    
   );
 }

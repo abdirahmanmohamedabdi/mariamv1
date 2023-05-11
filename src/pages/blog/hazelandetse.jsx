@@ -7,7 +7,7 @@ export default function hazelandetse() {
     <div className="flex flex-col items-center justify-center py-16 md:py-32">
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953675/mariam/blog/hazel/Hazel___Etse-11_icg2ng.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953664/mariam/blog/hazel/Hazel___Etse-1_rt2cpf.jpg"
           alt="About photo"
           width={300}
           height={900}
@@ -36,7 +36,7 @@ The photographs from the wedding captured the beauty and joy of the day perfectl
       </div>
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953671/mariam/blog/hazel/Hazel___Etse-16_rm6w1r.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953667/mariam/blog/hazel/Hazel___Etse-2_twxmjh.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -47,7 +47,7 @@ The photographs from the wedding captured the beauty and joy of the day perfectl
 
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953668/mariam/blog/hazel/Hazel___Etse-10_nlxtxg.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953667/mariam/blog/hazel/Hazel___Etse-3_qfhree.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -76,6 +76,17 @@ The photographs from the wedding captured the beauty and joy of the day perfectl
           className="rounded-md"
         />
       </div>
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953665/mariam/blog/hazel/Hazel___Etse-6_qhb43w.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
       <div className="mb-20">
         <Image
           src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953666/mariam/blog/hazel/Hazel___Etse-7_nzrgc7.jpg"
@@ -88,7 +99,7 @@ The photographs from the wedding captured the beauty and joy of the day perfectl
       </div>
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953666/mariam/blog/hazel/Hazel___Etse-4_qhx8py.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953667/mariam/blog/hazel/Hazel___Etse-8_dmeajf.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -98,7 +109,7 @@ The photographs from the wedding captured the beauty and joy of the day perfectl
       </div>
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953667/mariam/blog/hazel/Hazel___Etse-2_twxmjh.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953669/mariam/blog/hazel/Hazel___Etse-9_kh42fy.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -106,6 +117,162 @@ The photographs from the wedding captured the beauty and joy of the day perfectl
           className="rounded-md"
         />
       </div>
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953668/mariam/blog/hazel/Hazel___Etse-10_nlxtxg.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953675/mariam/blog/hazel/Hazel___Etse-11_icg2ng.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953668/mariam/blog/hazel/Hazel___Etse-12_itbbjj.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953671/mariam/blog/hazel/Hazel___Etse-13_y0xyk0.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953669/mariam/blog/hazel/Hazel___Etse-14_a3z55h.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953671/mariam/blog/hazel/Hazel___Etse-15_immqsa.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953671/mariam/blog/hazel/Hazel___Etse-16_rm6w1r.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953672/mariam/blog/hazel/Hazel___Etse-17_kno3hs.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953671/mariam/blog/hazel/Hazel___Etse-18_dvbjla.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953673/mariam/blog/hazel/Hazel___Etse-19_qscibz.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953676/mariam/blog/hazel/Hazel___Etse-20_ddbhvs.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683721999/mariam/blog/hazel/Hazel___Etse-21_pvxwym.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
 
     </div>
   </div>

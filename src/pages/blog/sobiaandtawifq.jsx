@@ -6,7 +6,7 @@ export default function sobiaandtawifq() {
     <div className="flex flex-col items-center justify-center py-16 md:py-32">
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953942/mariam/blog/sobia/Sobia___Tawfiq-20_v867p1.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538001/mariam/blog/sobia/Sobia___Tawfiq-1_iegjen.jpg"
           alt="About photo"
           width={800}
           height={800}
@@ -40,7 +40,7 @@ The photographs from the ceremony captured the beauty and intimacy of the event 
       </div>
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953941/mariam/blog/sobia/Sobia___Tawfiq-19_gbol0p.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953932/mariam/blog/sobia/Sobia___Tawfiq-2_bbfbwr.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -51,7 +51,7 @@ The photographs from the ceremony captured the beauty and intimacy of the event 
 
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953939/mariam/blog/sobia/Sobia___Tawfiq-7_z3yyqk.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538006/mariam/blog/sobia/Sobia___Tawfiq-3_kwivam.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -62,37 +62,7 @@ The photographs from the ceremony captured the beauty and intimacy of the event 
 
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953939/mariam/blog/sobia/Sobia___Tawfiq-16_qmtvs5.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953938/mariam/blog/sobia/Sobia___Tawfiq-10_fxftle.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953937/mariam/blog/sobia/Sobia___Tawfiq-15_sw98ud.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953934/mariam/blog/sobia/Sobia___Tawfiq-9_f3uz2d.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538003/mariam/blog/sobia/Sobia___Tawfiq-4_zw95z5.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -110,6 +80,210 @@ The photographs from the ceremony captured the beauty and intimacy of the event 
           className="rounded-md"
         />
       </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538015/mariam/blog/sobia/Sobia___Tawfiq-6_s5wrvj.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538003/mariam/blog/sobia/Sobia___Tawfiq-7_cqxmpq.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953934/mariam/blog/sobia/Sobia___Tawfiq-8_jokdty.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953934/mariam/blog/sobia/Sobia___Tawfiq-9_f3uz2d.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538006/mariam/blog/sobia/Sobia___Tawfiq-10_adwghh.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538007/mariam/blog/sobia/Sobia___Tawfiq-11_puidw6.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538011/mariam/blog/sobia/Sobia___Tawfiq-12_aym8zc.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538012/mariam/blog/sobia/Sobia___Tawfiq-13_lsazxh.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953942/mariam/blog/sobia/Sobia___Tawfiq-14_fqsiqf.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953937/mariam/blog/sobia/Sobia___Tawfiq-15_sw98ud.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538015/mariam/blog/sobia/Sobia___Tawfiq-16_cudxxg.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953941/mariam/blog/sobia/Sobia___Tawfiq-17_gh9wfc.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538022/mariam/blog/sobia/Sobia___Tawfiq-18_abiwq6.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953941/mariam/blog/sobia/Sobia___Tawfiq-19_gbol0p.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953942/mariam/blog/sobia/Sobia___Tawfiq-20_v867p1.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683538028/mariam/blog/sobia/Sobia___Tawfiq-21_wr0unf.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
 
     </div>
   </div>

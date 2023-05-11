@@ -6,7 +6,7 @@ export default function joannandnanfa() {
       <div className="flex flex-col items-center justify-center py-16 md:py-32">
         <div className="mb-20">
           <Image
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953798/mariam/blog/joanna/Joanna___Nanfa-15_e1efe1.jpg"
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953795/mariam/blog/joanna/Joanna___Nanfa-1_t3kl4r.jpg"
             alt="About photo"
             width={300}
             height={900}
@@ -53,7 +53,7 @@ As the evening drew to a close, the couple danced the night away in the Orangery
         </div>
         <div className="mb-20">
           <Image
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953797/mariam/blog/joanna/Joanna___Nanfa-13_erfbol.jpg"
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953799/mariam/blog/joanna/Joanna___Nanfa-2_wkjp5y.jpg"
             alt="About photo"
             width={1200}
             height={800}
@@ -64,7 +64,7 @@ As the evening drew to a close, the couple danced the night away in the Orangery
 
         <div className="mb-20">
           <Image
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953795/mariam/blog/joanna/Joanna___Nanfa-1_t3kl4r.jpg"
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953794/mariam/blog/joanna/Joanna___Nanfa-3_mfz2gb.jpg"
             alt="About photo"
             width={1200}
             height={800}
@@ -73,9 +73,39 @@ As the evening drew to a close, the couple danced the night away in the Orangery
           />
         </div>
 
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953794/mariam/blog/joanna/Joanna___Nanfa-4_plphgd.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953795/mariam/blog/joanna/Joanna___Nanfa-5_bnwegc.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
         <div className="mb-20">
           <Image
             src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953795/mariam/blog/joanna/Joanna___Nanfa-6_h9dkjr.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953795/mariam/blog/joanna/Joanna___Nanfa-7_pb0b5y.jpg"
             alt="About photo"
             width={1200}
             height={800}
@@ -93,16 +123,7 @@ As the evening drew to a close, the couple danced the night away in the Orangery
             className="rounded-md"
           />
         </div>
-        <div className="mb-20">
-          <Image
-            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953794/mariam/blog/joanna/Joanna___Nanfa-3_mfz2gb.jpg"
-            alt="About photo"
-            width={1200}
-            height={800}
-            layout="fit"
-            className="rounded-md"
-          />
-        </div>
+
         <div className="mb-20">
           <Image
             src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953796/mariam/blog/joanna/Joanna___Nanfa-9_aaajug.jpg"
@@ -113,6 +134,9 @@ As the evening drew to a close, the couple danced the night away in the Orangery
             className="rounded-md"
           />
         </div>
+
+
+
         <div className="mb-20">
           <Image
             src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953796/mariam/blog/joanna/Joanna___Nanfa-10_qnixko.jpg"
@@ -123,6 +147,264 @@ As the evening drew to a close, the couple danced the night away in the Orangery
             className="rounded-md"
           />
         </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953797/mariam/blog/joanna/Joanna___Nanfa-11_vzxytw.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953797/mariam/blog/joanna/Joanna___Nanfa-12_lishbr.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953797/mariam/blog/joanna/Joanna___Nanfa-13_erfbol.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953797/mariam/blog/joanna/Joanna___Nanfa-14_a40z3i.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953798/mariam/blog/joanna/Joanna___Nanfa-15_e1efe1.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953798/mariam/blog/joanna/Joanna___Nanfa-16_rowlag.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953798/mariam/blog/joanna/Joanna___Nanfa-17_nvjgf7.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953800/mariam/blog/joanna/Joanna___Nanfa-18_em86kq.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953798/mariam/blog/joanna/Joanna___Nanfa-19_bx65dv.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536678/mariam/blog/joanna/Joanna___Nanfa-20_bcxpe1.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536680/mariam/blog/joanna/Joanna___Nanfa-21_kzdses.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536680/mariam/blog/joanna/Joanna___Nanfa-22_nolglg.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536680/mariam/blog/joanna/Joanna___Nanfa-23_xeqpiz.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536680/mariam/blog/joanna/Joanna___Nanfa-24_sxillr.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536681/mariam/blog/joanna/Joanna___Nanfa-25_sy3qxq.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536681/mariam/blog/joanna/Joanna___Nanfa-26_o7wrh0.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536683/mariam/blog/joanna/Joanna___Nanfa-27_lc3ehe.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536683/mariam/blog/joanna/Joanna___Nanfa-28_slxhn3.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536682/mariam/blog/joanna/Joanna___Nanfa-29_uy7yon.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
+
+
+        <div className="mb-20">
+          <Image
+            src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683536683/mariam/blog/joanna/Joanna___Nanfa-30_h8qivo.jpg"
+            alt="About photo"
+            width={1200}
+            height={800}
+            layout="fit"
+            className="rounded-md"
+          />
+        </div>
+
       </div>
     </div>
   );

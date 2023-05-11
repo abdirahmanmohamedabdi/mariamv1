@@ -6,7 +6,7 @@ export default function annobelleandjamie() {
     <div className="flex flex-col items-center justify-center py-16 md:py-32">
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953602/mariam/blog/annabelle/Annobelle___Jamie-12_dp1orn.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953602/mariam/blog/annabelle/Annobelle___Jamie-1_gphymx.jpg"
           alt="About photo"
           width={1000}
           height={1000}
@@ -36,41 +36,32 @@ The love and affection Annobelle and Jamie have for each other is clear in the r
 
         </p>
       </div>
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953600/mariam/blog/annabelle/Annobelle___Jamie-4_ybuja5.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
+     
 
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953600/mariam/blog/annabelle/Annobelle___Jamie-9_thfxmn.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
-
-      <div className="mb-20">
-        <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953599/mariam/blog/annabelle/Annobelle___Jamie-10_l50wl9.jpg"
-          alt="About photo"
-          width={1200}
-          height={800}
-          layout="fit"
-          className="rounded-md"
-        />
-      </div>
       <div className="mb-20">
         <Image
           src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953597/mariam/blog/annabelle/Annobelle___Jamie-2_fr2kxs.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953597/mariam/blog/annabelle/Annobelle___Jamie-3_mtmssb.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953600/mariam/blog/annabelle/Annobelle___Jamie-4_ybuja5.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -90,7 +81,37 @@ The love and affection Annobelle and Jamie have for each other is clear in the r
       </div>
       <div className="mb-20">
         <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953599/mariam/blog/annabelle/Annobelle___Jamie-6_mczu4e.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
           src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953598/mariam/blog/annabelle/Annobelle___Jamie-7_si4sav.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953598/mariam/blog/annabelle/Annobelle___Jamie-8_thpo8u.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953600/mariam/blog/annabelle/Annobelle___Jamie-9_thfxmn.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -108,7 +129,116 @@ The love and affection Annobelle and Jamie have for each other is clear in the r
           className="rounded-md"
         />
       </div>
-
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953602/mariam/blog/annabelle/Annobelle___Jamie-11_jwgmnf.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953602/mariam/blog/annabelle/Annobelle___Jamie-12_dp1orn.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953601/mariam/blog/annabelle/Annobelle___Jamie-13_m5kka8.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953603/mariam/blog/annabelle/Annobelle___Jamie-14_dhtxz4.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953602/mariam/blog/annabelle/Annobelle___Jamie-15_nt8dy6.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683751569/mariam/blog/annabelle/Annobelle___Jamie-16_mpob3a.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683751569/mariam/blog/annabelle/Annobelle___Jamie-17_aczyfl.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683751568/mariam/blog/annabelle/Annobelle___Jamie-18_lws9zx.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683751569/mariam/blog/annabelle/Annobelle___Jamie-19_vz0gtr.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683751569/mariam/blog/annabelle/Annobelle___Jamie-20_rp4i2l.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683751567/mariam/blog/annabelle/Annobelle___Jamie-21_fdakj1.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
     </div>
   </div>
   )

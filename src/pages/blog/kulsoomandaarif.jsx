@@ -6,7 +6,7 @@ export default function kulsoomandaarif() {
     <div className="flex flex-col items-center justify-center py-16 md:py-32">
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953552/mariam/blog/kulsoom/Kulsoom___Aarif-14_wmlv9d.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724613/mariam/blog/kulsoom/Kulsoom___Aarif-1_fpupuu.jpg"
           alt="About photo"
           width={800}
           height={800}
@@ -36,6 +36,19 @@ Capturing Aarif & Kulsoom’s love for each other and their personalities was si
 
         </p>
       </div>
+      
+
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953547/mariam/blog/kulsoom/Kulsoom___Aarif-2_db3vfw.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+
       <div className="mb-20">
         <Image
           src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953552/mariam/blog/kulsoom/Kulsoom___Aarif-3_dnj8a3.jpg"
@@ -46,10 +59,9 @@ Capturing Aarif & Kulsoom’s love for each other and their personalities was si
           className="rounded-md"
         />
       </div>
-
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953551/mariam/blog/kulsoom/Kulsoom___Aarif-13_txtois.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953547/mariam/blog/kulsoom/Kulsoom___Aarif-4_azhbyu.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -57,7 +69,107 @@ Capturing Aarif & Kulsoom’s love for each other and their personalities was si
           className="rounded-md"
         />
       </div>
-
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724613/mariam/blog/kulsoom/Kulsoom___Aarif-4_1_hdilpm.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724614/mariam/blog/kulsoom/Kulsoom___Aarif-6_z61lc2.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724614/mariam/blog/kulsoom/Kulsoom___Aarif-7_ao1gt1.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953548/mariam/blog/kulsoom/Kulsoom___Aarif-8_ptzkdf.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953548/mariam/blog/kulsoom/Kulsoom___Aarif-9_gtpc6v.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724617/mariam/blog/kulsoom/Kulsoom___Aarif-10_q64zhv.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724615/mariam/blog/kulsoom/Kulsoom___Aarif-11_plccx9.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724617/mariam/blog/kulsoom/Kulsoom___Aarif-12_jl3dev.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724616/mariam/blog/kulsoom/Kulsoom___Aarif-13_q6pmd6.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724618/mariam/blog/kulsoom/Kulsoom___Aarif-14_t9bxtj.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
       <div className="mb-20">
         <Image
           src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953551/mariam/blog/kulsoom/Kulsoom___Aarif-15_mgmemm.jpg"
@@ -80,7 +192,7 @@ Capturing Aarif & Kulsoom’s love for each other and their personalities was si
       </div>
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953549/mariam/blog/kulsoom/Kulsoom___Aarif-11_xtgenw.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724617/mariam/blog/kulsoom/Kulsoom___Aarif-17_byb9ez.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -90,7 +202,7 @@ Capturing Aarif & Kulsoom’s love for each other and their personalities was si
       </div>
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953549/mariam/blog/kulsoom/Kulsoom___Aarif-10_npuo4l.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724617/mariam/blog/kulsoom/Kulsoom___Aarif-18_xxb1x2.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -100,7 +212,7 @@ Capturing Aarif & Kulsoom’s love for each other and their personalities was si
       </div>
       <div className="mb-20">
         <Image
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953549/mariam/blog/kulsoom/Kulsoom___Aarif-7_a7cc0z.jpg"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724623/mariam/blog/kulsoom/Kulsoom___Aarif-19_nh19rm.jpg"
           alt="About photo"
           width={1200}
           height={800}
@@ -108,8 +220,37 @@ Capturing Aarif & Kulsoom’s love for each other and their personalities was si
           className="rounded-md"
         />
       </div>
-
-    </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724623/mariam/blog/kulsoom/Kulsoom___Aarif-20_xrgcam.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724628/mariam/blog/kulsoom/Kulsoom___Aarif-21_at3bye.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      <div className="mb-20">
+        <Image
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683724624/mariam/blog/kulsoom/Kulsoom___Aarif-22_rh5ar4.jpg"
+          alt="About photo"
+          width={1200}
+          height={800}
+          layout="fit"
+          className="rounded-md"
+        />
+      </div>
+      </div>
   </div>
   )
 }
