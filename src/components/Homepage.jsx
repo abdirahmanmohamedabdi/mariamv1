@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Transition } from "@headlessui/react";
-import ArrowLeftIcon from "@heroicons/react/solid";
-import ArrowRightIcon from "@heroicons/react/solid";
-import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/solid";
+
 
 const slides = [
   {
@@ -86,7 +84,7 @@ const HeroSlider = () => {
             <Image
               src={slide.imageUrl}
               alt=""
-              loading="lazy"
+             
 
               layout="fill"
               objectFit="cover"
