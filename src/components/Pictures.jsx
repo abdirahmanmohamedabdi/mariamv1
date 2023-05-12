@@ -106,7 +106,7 @@ const Pictures = () => {
               alt=""
               quality={80}
               layout="fill"
-              loading="lazy"
+            
 
               objectFit="cover"
             />

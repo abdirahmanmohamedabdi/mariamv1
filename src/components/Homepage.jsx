@@ -7,7 +7,7 @@ const slides = [
   {
     id: 1,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683644249/mariam/sPortfolio-27_uvn08a_76b496wewe.jpg ",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683644249/mariam/sPortfolio-27_uvn08a_76b496wewe.jpg",
     heading: "THIS IS YOUR LOVE STORY",
   },
   {
@@ -49,7 +49,7 @@ const slides = [
   {
     id: 8,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683538033/mariam/blog/sobia/Sobia___Tawfiq-36_tmkepn.jpg      ",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683538033/mariam/blog/sobia/Sobia___Tawfiq-36_tmkepn.jpg",
     heading: "YOUR MEMORIES FOREVER PRESERVED",
   },
 ];
