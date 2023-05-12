@@ -19,7 +19,7 @@ const slides = [
   {
     id: 3,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683536685/mariam/blog/joanna/Joanna___Nanfa-38_qwfacc.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683536679/mariam/blog/joanna/Joanna___Nanfa-51_zjjdtq.jpg",
     heading: "CANDID + GENUINE",
   },
   {
