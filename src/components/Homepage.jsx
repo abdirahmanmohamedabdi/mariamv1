@@ -54,12 +54,6 @@ const slides = [
       "https://res.cloudinary.com/dyijvml1y/image/upload/v1683538033/mariam/blog/sobia/Sobia___Tawfiq-36_tmkepn.jpg      ",
     heading: "YOUR MEMORIES FOREVER PRESERVED",
   },
-  {
-    id: 9,
-    imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953873/mariam/blog/N_j/N___J-22_owafpi.jpg",
-    heading: "CANDID + GENUINE",
-  },
 ];
 
 const HeroSlider = () => {
