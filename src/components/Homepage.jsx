@@ -1,55 +1,57 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Transition } from "@headlessui/react";
+import ArrowLeftIcon from "@heroicons/react/solid";
+import ArrowRightIcon from "@heroicons/react/solid";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/solid";
 
 const slides = [
   {
     id: 1,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524533/mariam/Sobia___Tawfiq-41_yhxfbt.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683644249/mariam/sPortfolio-27_uvn08a_76b496wewe.jpg ",
     heading: "THIS IS YOUR LOVE STORY",
   },
   {
     id: 2,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682954041/mariam/blog/Nael/Nael___Lamyae-4_zdkcvu.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953873/mariam/blog/N_j/N___J-22_owafpi.jpg",
     heading: "TIMELESS",
   },
   {
     id: 3,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953739/mariam/blog/jay/Jay___Sachi-6_oc5y8v.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683536685/mariam/blog/joanna/Joanna___Nanfa-38_qwfacc.jpg",
     heading: "CANDID + GENUINE",
   },
   {
     id: 4,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683644249/mariam/sPortfolio-27_uvn08a_76b496wewe.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524533/mariam/Sobia___Tawfiq-41_yhxfbt.jpg",
     heading: "THIS IS YOUR LOVE STORY ",
   },
   {
     id: 5,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1681524531/mariam/Joanna___Nanfa-27_fiwb2e.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953667/mariam/blog/hazel/Hazel___Etse-8_dmeajf.jpg",
     heading: "PHOTOGRAPHY YOU CAN FEEL",
   },
   {
     id: 6,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683538033/mariam/blog/sobia/Sobia___Tawfiq-36_tmkepn.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682954041/mariam/blog/Nael/Nael___Lamyae-4_zdkcvu.jpg",
     heading: "YOUR MEMORIES FOREVER PRESERVED",
   },
   {
     id: 7,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1682953601/mariam/blog/annabelle/Annobelle___Jamie-13_m5kka8.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683751567/mariam/blog/annabelle/Annobelle___Jamie-21_fdakj1.jpg",
     heading: "CANDID + GENUINE ",
   },
   {
     id: 8,
     imageUrl:
-      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683536685/mariam/blog/joanna/Joanna___Nanfa-38_qwfacc.jpg",
+      "https://res.cloudinary.com/dyijvml1y/image/upload/v1683538033/mariam/blog/sobia/Sobia___Tawfiq-36_tmkepn.jpg      ",
     heading: "YOUR MEMORIES FOREVER PRESERVED",
   },
   {
@@ -90,6 +92,8 @@ const HeroSlider = () => {
             <Image
               src={slide.imageUrl}
               alt=""
+              loading="lazy"
+
               layout="fill"
               objectFit="cover"
             />
@@ -106,53 +110,31 @@ const HeroSlider = () => {
       ))}
       <div className="absolute bottom-0 left-0 right-0   flex justify-between">
         <button
-          className="absolute bottom-20 left-3 h-12 w-12   text-gray-700 hover:text-gray-900 flex items-center justify-center shadow"
+          className="absolute bottom-20 left-3 h-12 w-12   text-gray-700 hover:text-gray-900 flex items-center justify-center "
           onClick={() =>
             setCurrentSlide(
               currentSlide === 0 ? slides.length - 1 : currentSlide - 1
             )
           }
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="icon icon-tabler icon-tabler-arrow-narrow-left h-6  w-6"
-            width="44"
-            height="44"
-            viewBox="0 0 24 24"
-            strokeWidth="1.5"
-            stroke="#ffffff"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <line x1="5" y1="12" x2="19" y2="12" />
-            <line x1="5" y1="12" x2="9" y2="16" />
-            <line x1="5" y1="12" x2="9" y2="8" />
-          </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-left" width="44" height="44" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M5 12l14 0" />
+  <path d="M5 12l6 6" />
+  <path d="M5 12l6 -6" />
+</svg>
         </button>
         <button
           className="absolute bottom-20 right-3 h-12 w-12
-           text-gray-700 hover:text-gray-900 flex items-center justify-center shadow"
+           text-gray-700 hover:text-gray-900 flex items-center justify-center "
           onClick={() => setCurrentSlide((currentSlide + 1) % slides.length)}
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="icon icon-tabler icon-tabler-arrow-right h-6  w-6"
-            width="44"
-            height="44"
-            viewBox="0 0 24 24"
-            strokeWidth="1.5"
-            stroke="#ffffff"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <line x1="5" y1="12" x2="19" y2="12" />
-            <line x1="13" y1="18" x2="19" y2="12" />
-            <line x1="13" y1="6" x2="19" y2="12" />
-          </svg>
+         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="44" height="44" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M5 12l14 0" />
+  <path d="M13 18l6 -6" />
+  <path d="M13 6l6 6" />
+</svg>
         </button>
       </div>
     </div>

@@ -66,7 +66,7 @@ export default function Blog() {
               Engagement
               </Link>
               <h1 class="text-gray-900 text-3xl font-abc  title-font font-medium mb-2">
-                Kulsoom & Aarif’
+                Kulsoom & Aarif
               </h1>
               <div class="flex mb-4"></div>
               <p class="leading-relaxed font-abc ">
@@ -217,7 +217,7 @@ export default function Blog() {
               Wedding
               </Link>
               <h1 class="text-gray-900 text-3xl font-abc title-font font-medium mb-2">
-                Sobia & Tawfiq’s
+                Sobia & Tawfiq
               </h1>
               <div class="flex mb-4"></div>
               <p class="leading-relaxed font-abc ">
@@ -256,7 +256,7 @@ export default function Blog() {
               Wedding
               </Link>
               <h1 class="text-gray-900 text-3xl  font-abc title-font font-medium mb-2">
-                Hazel & Etse’s
+                Hazel & Etse
               </h1>
               <div class="flex mb-4"></div>
               <p class="leading-relaxed font-abc ">
