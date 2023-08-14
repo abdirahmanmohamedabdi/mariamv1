@@ -15,14 +15,14 @@ const Package = () => {
             <Image src="https://res.cloudinary.com/dyijvml1y/image/upload/v1682953602/mariam/blog/annabelle/Annobelle___Jamie-15_nt8dy6.jpg" layout="fill" objectFit="cover" alt="Engagement Session" />
           </div>
           <h2 className="text-3xl font-bold text-center font-abc mt-8 mb-4">Engagement Sessions</h2>
-          <p className="text-lg text-center font-abc mb-8">Starting at £200</p>
+          <p className="text-lg text-center font-abc mb-8">Starting at £140</p>
         </div>
         <div className="w-full sm:w-1/2">
           <div className="relative h-96 rounded-lg overflow-hidden">
             <Image src="https://res.cloudinary.com/dyijvml1y/image/upload/v1683274300/mariam/blog/joanna/Joanna___Nanfa-35_azcdak.jpg" layout="fill" objectFit="cover" alt="Wedding" />
           </div>
           <h2 className="text-3xl font-bold font-abc text-center mt-8 mb-4">Weddings</h2>
-          <p className="text-lg text-center font-abc mb-8">Starting at £1,000</p>
+          <p className="text-lg text-center font-abc mb-8">Starting at £700</p>
         </div>
       </div>
     </div>
