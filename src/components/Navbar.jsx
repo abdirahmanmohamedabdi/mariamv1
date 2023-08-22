@@ -6,7 +6,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const Nav = () => {
   const [nav, setNav] = useState(false);
-  const [color, setColor] = useState("transparent");
+  const [color, setColor] = useState("white");
   const [textColor, setTextColor] = useState("black");
 
   const handleNav = () => {
@@ -18,7 +18,7 @@ const Nav = () => {
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
+      className=" fixed  sticky left-0 top-0 w-full  z-10 ease-in duration-300"
     >
       <div className="max-w-[1040px] m-auto flex justify-between items-center p-1 text-black">
         <Link href="/">
